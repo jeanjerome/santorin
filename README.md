@@ -1,8 +1,13 @@
 <p align="center">
-  <img src="assets/icon.png" alt="Santorin" width="128" height="128" />
+  <img src="assets/icon.png" alt="Échappée à Santorin" width="128" height="128" />
 </p>
 
-# Santorin — Lieux d'intérêt
+<h1 align="center">Échappée à Santorin</h1>
+
+<p align="center">
+  <em>Mon carnet de l'île, à portée de pouce — plages, tavernes, supermarchés et
+  trésors des Cyclades, prêts à me guider tout l'été.</em>
+</p>
 
 Carte personnelle des lieux d'intérêt de Santorin (plages, supermarchés,
 restaurants, laveries, sites culturels, services), conçue pour un usage au
@@ -28,9 +33,8 @@ tant qu'aucune location n'est définie, il ouvre directement la configuration.
 ## Pile technique
 
 - **Vite** + **TypeScript** (aucun framework UI, DOM natif)
-- **Leaflet** pour la carte
-- **PMTiles** + **protomaps-leaflet** pour un fond de carte vectoriel hors ligne
-  (avec repli sur les tuiles raster OpenStreetMap quand le PMTiles est absent)
+- **Leaflet** + tuiles raster **OpenStreetMap** (mises en cache au fil de la
+  navigation pour rester disponibles hors ligne)
 - **vite-plugin-pwa** (Workbox) pour le service worker et le manifeste
 
 ## Structure
@@ -39,14 +43,14 @@ tant qu'aucune location n'est définie, il ouvre directement la configuration.
 data/        Corpus source (GeoJSON + KML)
 docs/        Guides pratiques de Santorin
 assets/      Source de l'icône (icon-source.png) + image README
-scripts/     Génération du seed, des icônes et du fond de carte
+scripts/     Génération du seed et des icônes
 src/
   data/      Modèle POI, chargement, catégories
   map/       Création de la carte, fond de carte, marqueurs
   ui/        Barre de filtres, fiche détail, liste
   lib/       Liens profonds de navigation (Apple/Google/Waze)
   styles/    Tokens et styles globaux
-public/      Artefacts générés (pois.json, icônes, basemap) — non versionnés
+public/      Artefacts générés (pois.json, icônes) — non versionnés
 ```
 
 ## Démarrage
@@ -54,26 +58,12 @@ public/      Artefacts générés (pois.json, icônes, basemap) — non versionn
 ```bash
 npm install
 npm run seed     # data/*.geojson -> public/data/pois.json
-npm run icons    # assets/icon-source.svg -> public/icons/*
+npm run icons    # assets/icon-source.png -> public/icons/*
 npm run dev      # serveur de dev
 ```
 
 `npm run seed` et `npm run icons` ne sont à relancer qu'après modification du
 corpus ou de l'icône.
-
-## Fond de carte hors ligne (optionnel)
-
-Sans fichier PMTiles, l'app utilise les tuiles raster OpenStreetMap (nécessite
-une connexion la première fois ; elles sont ensuite mises en cache). Pour un
-fond de carte vectoriel entièrement hors ligne :
-
-```bash
-brew install pmtiles          # CLI Protomaps (macOS)
-npm run basemap               # extrait la zone de Santorin -> public/basemap/santorini.pmtiles
-```
-
-L'app détecte automatiquement le fichier (signature PMTiles) et bascule sur le
-rendu vectoriel.
 
 ## Build de production
 

@@ -17,7 +17,7 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["icons/apple-touch-icon.png", "data/pois.json"],
       manifest: {
-        name: "Santorin — Lieux d'intérêt",
+        name: "Échappée à Santorin",
         short_name: "Santorin",
         description:
           "Carte hors-ligne des lieux d'intérêt de Santorin : plages, supermarchés, restaurants, laveries, sites culturels.",
@@ -40,13 +40,10 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // The basemap can be large; raise the precache ceiling so the PMTiles
-        // archive and the POI seed are stored for offline use.
-        maximumFileSizeToCacheInBytes: 60 * 1024 * 1024,
-        globPatterns: ["**/*.{js,css,html,png,svg,json,pmtiles}"],
+        globPatterns: ["**/*.{js,css,html,png,svg,json}"],
         runtimeCaching: [
           {
-            // OSM raster fallback used while online when no PMTiles is bundled.
+            // OSM raster tiles: cached as the user browses, for offline reuse.
             urlPattern: /^https:\/\/[abc]\.tile\.openstreetmap\.org\/.*/i,
             handler: "CacheFirst",
             options: {

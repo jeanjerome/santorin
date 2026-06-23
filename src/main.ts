@@ -47,7 +47,7 @@ async function bootstrap(): Promise<void> {
     return;
   }
 
-  const map = await createMap(mapEl);
+  const map = createMap(mapEl);
 
   // Build one marker per located POI; keep handles so filtering can add/remove
   // them from a layer group without rebuilding.

@@ -3,19 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Carte hors-ligne des lieux d'interet de Santorin avec envoi vers Apple Plans, Google Maps et Waze",
+  "description": "Carte des lieux d'interet de Santorin avec envoi vers Apple Plans, Google Maps et Waze",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host",
     "seed": "node scripts/build-seed.mjs",
-    "icons": "node scripts/make-icons.mjs",
-    "basemap": "bash scripts/build-pmtiles.sh"
+    "icons": "node scripts/make-icons.mjs"
   },
   "dependencies": {
-    "leaflet": "^1.9.4",
-    "pmtiles": "^4.3.0",
-    "protomaps-leaflet": "^4.0.1"
+    "leaflet": "^1.9.4"
   },
   "devDependencies": {
     "@types/leaflet": "^1.9.12",

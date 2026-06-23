@@ -6,7 +6,7 @@ import { createBasemap } from "./basemap";
 const SANTORINI_CENTER: L.LatLngTuple = [36.405, 25.44];
 const SANTORINI_BOUNDS = L.latLngBounds([36.32, 25.32], [36.48, 25.52]);
 
-export async function createMap(container: HTMLElement): Promise<L.Map> {
+export function createMap(container: HTMLElement): L.Map {
   const map = L.map(container, {
     center: SANTORINI_CENTER,
     zoom: 11,
@@ -18,9 +18,7 @@ export async function createMap(container: HTMLElement): Promise<L.Map> {
   });
 
   L.control.zoom({ position: "bottomright" }).addTo(map);
-
-  const basemap = await createBasemap();
-  basemap.addTo(map);
+  createBasemap().addTo(map);
 
   return map;
 }
