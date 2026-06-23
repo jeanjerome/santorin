@@ -7,7 +7,7 @@
       "properties": {
         "name": "AB Vassilopoulos",
         "category": "Supermarché",
-        "address": "non précisé",
+        "address": "Ν.Ο.Φηρών, Pirgos Kallistis 847 00, Greece",
         "gps": {
           "lat": 36.4053207,
           "lon": 25.4365031
@@ -15,7 +15,21 @@
         "source": "https://www.openstreetmap.org/",
         "source_note": "AB (Vassilopoulos) géolocalisé via OpenStreetMap.",
         "pictogram": "shopping-cart",
-        "label": "AB Fira"
+        "label": "AB Fira",
+        "info": {
+          "hours": [
+            {
+              "day": "Lun–Sam",
+              "value": "08:00–22:00"
+            },
+            {
+              "day": "Dim",
+              "value": "11:00–20:00"
+            }
+          ],
+          "tip": "Grand magasin sur la route Firá–Pyrgos. Ouvert tous les jours, horaires réduits le dimanche."
+        },
+        "rating": 4.4
       },
       "geometry": {
         "type": "Point",
@@ -38,7 +52,25 @@
         "source": "https://www.openstreetmap.org/",
         "source_note": "Supermarché Lidl géolocalisé via OpenStreetMap.",
         "pictogram": "shopping-cart",
-        "label": "Lidl Fira"
+        "label": "Lidl Fira",
+        "info": {
+          "hours": [
+            {
+              "day": "Lun–Ven",
+              "value": "08:00–21:00"
+            },
+            {
+              "day": "Sam",
+              "value": "08:00–20:00"
+            },
+            {
+              "day": "Dim",
+              "value": "Fermé"
+            }
+          ],
+          "tip": "Sur la route Firá–Pyrgos. Fermé le dimanche : prévoir ses courses avant."
+        },
+        "rating": 4
       },
       "geometry": {
         "type": "Point",
@@ -58,7 +90,26 @@
         "source": null,
         "source_note": "Introuvable dans les six sources autorisées.",
         "pictogram": "shopping-cart",
-        "label": "Masoutis Pyrgos"
+        "label": "Masoutis Pyrgos",
+        "info": {
+          "hours": [
+            {
+              "day": "Lun–Ven",
+              "value": "08:00–21:00"
+            },
+            {
+              "day": "Sam",
+              "value": "08:00–20:00"
+            },
+            {
+              "day": "Dim",
+              "value": "Fermé"
+            }
+          ],
+          "phone": "+30 22860 34000",
+          "tip": "Sur l'axe Perissa–Firá. Comme la plupart des supermarchés grecs, fermé le dimanche."
+        },
+        "rating": 4.4
       },
       "geometry": null
     },
@@ -72,7 +123,11 @@
         "source": null,
         "source_note": "Introuvable dans les six sources autorisées.",
         "pictogram": "shopping-cart",
-        "label": "Masoutis Emporio"
+        "label": "Masoutis Emporio",
+        "info": {
+          "tip": "Présence à Emporio non confirmée de façon fiable — à vérifier sur place avant de s'y rendre."
+        },
+        "rating": 4.6
       },
       "geometry": null
     },
@@ -89,7 +144,22 @@
         "source": "https://www.openstreetmap.org/",
         "source_note": "Σκλαβενίτης (Mesaria) géolocalisé via OpenStreetMap.",
         "pictogram": "shopping-cart",
-        "label": "Sklavenitis Mesaria"
+        "label": "Sklavenitis Mesaria",
+        "info": {
+          "hours": [
+            {
+              "day": "Lun–Sam",
+              "value": "08:00–21:00"
+            },
+            {
+              "day": "Dim",
+              "value": "Fermé"
+            }
+          ],
+          "phone": "+30 22860 27410",
+          "tip": "Le plus grand supermarché de Mesaria. Fermé le dimanche."
+        },
+        "rating": 4.5
       },
       "geometry": {
         "type": "Point",
@@ -112,7 +182,12 @@
         "source": "https://www.openstreetmap.org/",
         "source_note": "ΚΡΗΤΙΚΟΣ (Mesaria) géolocalisé via OpenStreetMap.",
         "pictogram": "shopping-cart",
-        "label": "Kritikos Mesaria"
+        "label": "Kritikos Mesaria",
+        "info": {
+          "phone": "+30 22860 31534",
+          "tip": "Supermarché à Mesaria. Horaires variables selon la saison — appeler avant de s'y rendre."
+        },
+        "rating": 4.6
       },
       "geometry": {
         "type": "Point",
@@ -132,7 +207,22 @@
         "source": null,
         "source_note": "Introuvable dans les six sources autorisées.",
         "pictogram": "bubbles",
-        "label": "Smart Wash"
+        "label": "Smart Wash",
+        "info": {
+          "hours": [
+            {
+              "day": "Lun–Dim",
+              "value": "07:00–23:00"
+            }
+          ],
+          "phone": "+30 695 543 2391",
+          "tags": [
+            "Libre-service",
+            "Lavage + séchage",
+            "Lessive incluse"
+          ],
+          "tip": "Laverie libre-service à Fira, ouverte toute l'année. Machines 10 kg (dès 5 €) ou 15 kg (8 €), séchage 1 €/10 min."
+        }
       },
       "geometry": null
     },
@@ -146,7 +236,15 @@
         "source": null,
         "source_note": "Introuvable dans les six sources autorisées.",
         "pictogram": "bubbles",
-        "label": "AD Laundry"
+        "label": "AD Laundry",
+        "info": {
+          "phone": "+30 22860 23533",
+          "tags": [
+            "Service au comptoir",
+            "Dépôt"
+          ],
+          "tip": "Laverie à dépôt à Fira (pas de libre-service). Appeler pour horaires et tarifs."
+        }
       },
       "geometry": null
     },
@@ -160,7 +258,22 @@
         "source": null,
         "source_note": "Introuvable dans les six sources autorisées.",
         "pictogram": "bubbles",
-        "label": "Pro Laundry"
+        "label": "Pro Laundry",
+        "info": {
+          "hours": [
+            {
+              "day": "Lun–Dim",
+              "value": "07:00–22:00"
+            }
+          ],
+          "phone": "+30 698 334 4076",
+          "tags": [
+            "Enlèvement & livraison gratuits",
+            "Lavage-séchage-pliage",
+            "Nettoyage à sec"
+          ],
+          "tip": "Service à domicile depuis Messaria : collecte et livraison gratuites sur toute l'île."
+        }
       },
       "geometry": null
     },
@@ -174,7 +287,16 @@
         "source": null,
         "source_note": "Introuvable dans les six sources autorisées.",
         "pictogram": "bubbles",
-        "label": "Crystal Bee"
+        "label": "Crystal Bee",
+        "info": {
+          "phone": "+30 6948 890009",
+          "tags": [
+            "Enlèvement & livraison",
+            "Linge d'hôtel",
+            "Nettoyage à sec"
+          ],
+          "tip": "Pressing à Pyrgos plutôt orienté hôtels et villas. Collecte tous les jours sauf dimanche."
+        }
       },
       "geometry": null
     },
@@ -188,7 +310,15 @@
         "source": null,
         "source_note": "Introuvable dans les six sources autorisées.",
         "pictogram": "bubbles",
-        "label": "Santorini Laundry"
+        "label": "Santorini Laundry",
+        "info": {
+          "phone": "+30 22860 36236",
+          "tags": [
+            "Blanchisserie industrielle",
+            "Linge d'hôtel"
+          ],
+          "tip": "Blanchisserie industrielle à Monolithos dédiée aux hôtels — pas un service pour les voyageurs."
+        }
       },
       "geometry": null
     },
@@ -204,7 +334,17 @@
         },
         "source": "https://nl.wikivoyage.org/wiki/Santorini",
         "pictogram": "beach",
-        "label": "Red Beach"
+        "label": "Red Beach",
+        "rating": 4.1,
+        "info": {
+          "tags": [
+            "Sable/galets rouges",
+            "Falaises volcaniques",
+            "Accès difficile",
+            "Sans équipements"
+          ],
+          "tip": "Accès par un sentier rocheux glissant, risque de chutes de pierres. Bonnes chaussures, ne pas stationner sous les falaises."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -226,7 +366,17 @@
         },
         "source": "https://en.wikivoyage.org/wiki/Akrotiri",
         "pictogram": "beach",
-        "label": "White Beach"
+        "label": "White Beach",
+        "info": {
+          "tags": [
+            "Accès par bateau",
+            "Falaises blanches",
+            "Snorkeling",
+            "Isolée",
+            "Sans équipements"
+          ],
+          "tip": "Accessible uniquement en taxi-boat depuis Akrotiri (5–10 €). Aucun service : prévoir eau et nourriture, vérifier le dernier retour."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -248,7 +398,18 @@
         },
         "source": "https://nl.wikivoyage.org/wiki/Santorini",
         "pictogram": "beach",
-        "label": "Kamari Beach"
+        "label": "Kamari Beach",
+        "rating": 4.5,
+        "info": {
+          "tags": [
+            "Sable noir volcanique",
+            "Transats & parasols",
+            "Tavernes & bars",
+            "Pavillon Bleu",
+            "Animée"
+          ],
+          "tip": "Sable noir très chaud et entrée caillouteuse : chaussures d'eau utiles. Arriver avant 11h pour un transat au premier rang."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -270,7 +431,17 @@
         },
         "source": "https://en.wikivoyage.org/wiki/Perissa",
         "pictogram": "beach",
-        "label": "Perissa Beach"
+        "label": "Perissa Beach",
+        "info": {
+          "tags": [
+            "Sable noir volcanique",
+            "Familiale",
+            "Sports nautiques",
+            "Maîtres-nageurs",
+            "Pavillon Bleu"
+          ],
+          "tip": "Idéale familles : eau peu profonde, surveillance et aire de jeux. Sable noir brûlant l'après-midi."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +464,18 @@
         "source": "https://www.openstreetmap.org/",
         "source_note": "Plage géolocalisée via OpenStreetMap.",
         "pictogram": "beach",
-        "label": "Perivolos Beach"
+        "label": "Perivolos Beach",
+        "rating": 4.5,
+        "info": {
+          "tags": [
+            "Sable noir volcanique",
+            "Beach clubs & DJ",
+            "Tendance",
+            "Transats & parasols",
+            "Sports nautiques"
+          ],
+          "tip": "Ambiance festive (clubs de plage). Consommation minimum par personne pour les transats. Sable brûlant à midi."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -315,7 +497,16 @@
         },
         "source": "https://nl.wikivoyage.org/wiki/Santorini",
         "pictogram": "beach",
-        "label": "Vlychada Beach"
+        "label": "Vlychada Beach",
+        "info": {
+          "tags": [
+            "Sable noir & galets",
+            "Falaises lunaires",
+            "Calme & isolée",
+            "Marina"
+          ],
+          "tip": "Paysage lunaire spectaculaire, plage peu fréquentée. Eau vite profonde, peu de services."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -338,7 +529,18 @@
         "source": "https://www.openstreetmap.org/",
         "source_note": "Plage géolocalisée via OpenStreetMap.",
         "pictogram": "beach",
-        "label": "Monolithos Beach"
+        "label": "Monolithos Beach",
+        "rating": 4.1,
+        "info": {
+          "tags": [
+            "Sable noir fin",
+            "Familiale",
+            "Eau peu profonde",
+            "Aire de jeux",
+            "Maîtres-nageurs"
+          ],
+          "tip": "La plus adaptée aux jeunes enfants : eau peu profonde, aire de jeux. Proche de l'aéroport, parking abondant."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -360,7 +562,22 @@
         },
         "source": "https://nl.wikivoyage.org/wiki/Santorini",
         "pictogram": "landmark",
-        "label": "Akrotiri site"
+        "label": "Akrotiri site",
+        "rating": 4.5,
+        "info": {
+          "ticket": "20 €",
+          "hours": [
+            {
+              "day": "Mer, Ven, Sam, Dim",
+              "value": "08:00–20:00"
+            },
+            {
+              "day": "Lun, Mar, Jeu",
+              "value": "08:30–15:30"
+            }
+          ],
+          "tip": "Site couvert et ombragé. Billet combiné à 15 € avec Théra antique et le Musée de Préhistoire. Vérifier l'ouverture (fermetures techniques possibles)."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -382,7 +599,22 @@
         },
         "source": "https://en.wikivoyage.org/wiki/Fira",
         "pictogram": "landmark",
-        "label": "Musée préhistoire"
+        "label": "Musée préhistoire",
+        "rating": 4.5,
+        "info": {
+          "ticket": "10 €",
+          "hours": [
+            {
+              "day": "Mer–Lun",
+              "value": "08:30–15:30"
+            },
+            {
+              "day": "Mar",
+              "value": "Fermé"
+            }
+          ],
+          "tip": "Fermé le mardi. Superbes fresques minoennes, à combiner avec Akrotiri. Proche de l'arrêt de bus de Fira."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -404,7 +636,22 @@
         },
         "source": "https://nl.wikivoyage.org/wiki/Santorini",
         "pictogram": "landmark",
-        "label": "Ancient Thera"
+        "label": "Ancient Thera",
+        "rating": 4.4,
+        "info": {
+          "ticket": "10 €",
+          "hours": [
+            {
+              "day": "Jeu–Mar",
+              "value": "08:30–15:30"
+            },
+            {
+              "day": "Mer",
+              "value": "Fermé"
+            }
+          ],
+          "tip": "Fermé le mercredi. Venir tôt : accès en montée, peu d'ombre, pas de toilettes. Vues splendides sur Kamari et Perissa."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -426,7 +673,26 @@
         },
         "source": "https://en.wikivoyage.org/wiki/Fira",
         "pictogram": "landmark",
-        "label": "Musée archéo"
+        "label": "Musée archéo",
+        "rating": 4,
+        "info": {
+          "ticket": "10 €",
+          "hours": [
+            {
+              "day": "Mar–Ven, Dim",
+              "value": "08:30–15:30"
+            },
+            {
+              "day": "Sam",
+              "value": "09:00–21:00"
+            },
+            {
+              "day": "Lun",
+              "value": "Fermé"
+            }
+          ],
+          "tip": "Fermé le lundi. Vases et sculptures antiques, plus petit que le Musée de Préhistoire."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -448,7 +714,12 @@
         },
         "source": "https://en.wikivoyage.org/wiki/Imerovigli",
         "pictogram": "landmark",
-        "label": "Skaros Rock"
+        "label": "Skaros Rock",
+        "rating": 4.6,
+        "info": {
+          "ticket": "Gratuit",
+          "tip": "Site en plein air gratuit. Randonnée raide (~300 marches) : chaussures fermées et eau indispensables. Venir tôt ou en fin d'après-midi."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -470,7 +741,12 @@
         },
         "source": "https://en.wikivoyage.org/wiki/Akrotiri",
         "pictogram": "landmark",
-        "label": "Phare Akrotiri"
+        "label": "Phare Akrotiri",
+        "rating": 4.5,
+        "info": {
+          "ticket": "Gratuit",
+          "tip": "Accès extérieur libre (intérieur fermé). Spot de coucher de soleil moins bondé qu'Oia. Venir tôt, c'est venteux."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -492,7 +768,12 @@
         },
         "source": "https://nl.wikivoyage.org/wiki/Santorini",
         "pictogram": "landmark",
-        "label": "Profitis Ilias"
+        "label": "Profitis Ilias",
+        "rating": 4.4,
+        "info": {
+          "ticket": "Gratuit",
+          "tip": "Entrée gratuite (dons appréciés). Tenue modeste exigée. Horaires irréguliers, souvent fermé l'après-midi. Point le plus haut de l'île."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -514,7 +795,19 @@
         },
         "source": "https://en.wikivoyage.org/wiki/Fira",
         "pictogram": "restaurant",
-        "label": "Selene"
+        "label": "Selene",
+        "rating": 4.8,
+        "info": {
+          "priceRange": "€€€",
+          "phone": "+30 22860 22249",
+          "hours": [
+            {
+              "day": "Tous les jours",
+              "value": "10:00–22:00"
+            }
+          ],
+          "tip": "Table gastronomique dans un ancien monastère à Fira. Réservation conseillée pour le dîner."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -536,7 +829,13 @@
         },
         "source": "https://en.wikivoyage.org/wiki/Imerovigli",
         "pictogram": "restaurant",
-        "label": "Athenian House"
+        "label": "Athenian House",
+        "rating": 4.2,
+        "info": {
+          "priceRange": "€€€",
+          "phone": "+30 22860 36420",
+          "tip": "Vue caldeira depuis la terrasse à Imerovigli. Réserver à l'avance."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -558,7 +857,19 @@
         },
         "source": "https://en.wikivoyage.org/wiki/Vlychada",
         "pictogram": "restaurant",
-        "label": "To Psaraki"
+        "label": "To Psaraki",
+        "rating": 4.7,
+        "info": {
+          "priceRange": "€€",
+          "phone": "+30 22860 82783",
+          "hours": [
+            {
+              "day": "Tous les jours",
+              "value": "13:00–22:00"
+            }
+          ],
+          "tip": "Poisson et fruits de mer très frais au-dessus de la marina de Vlychada. Réservation conseillée."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -581,7 +892,19 @@
         "source": "https://www.openstreetmap.org/",
         "source_note": "Restaurant « Μεταξύ Μας » géolocalisé via OpenStreetMap.",
         "pictogram": "restaurant",
-        "label": "Metaxi Mas"
+        "label": "Metaxi Mas",
+        "rating": 4.6,
+        "info": {
+          "priceRange": "€€",
+          "phone": "+30 22860 31323",
+          "hours": [
+            {
+              "day": "Tous les jours",
+              "value": "14:00–00:00"
+            }
+          ],
+          "tip": "Très réputé (cuisine crétoise et santorinienne). Réservation indispensable, à faire dès l'arrivée sur l'île."
+        }
       },
       "geometry": {
         "type": "Point",
@@ -603,7 +926,10 @@
         },
         "source": "https://nl.wikivoyage.org/wiki/Santorini",
         "pictogram": "bus",
-        "label": "Bus Fira"
+        "label": "Bus Fira",
+        "info": {
+          "tip": "Hub central KTEL : tous les bus partent et arrivent à Fira (Oia, Kamari, Perissa, aéroport). Billet payé à bord. Relier deux villages nécessite souvent un transit par Fira."
+        }
       },
       "geometry": {
         "type": "Point",

@@ -4,13 +4,32 @@
 // the `gps` property; POIs with neither stay in the seed (lat/lon = null) so the
 // list view can still surface them.
 
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCE = resolve(ROOT, "data/santorini-corpus-restreint.geojson");
 const OUT = resolve(ROOT, "public/data/pois.json");
+const PHOTOS_DIR = resolve(ROOT, "public/photos");
+
+// Map of poi id -> photo filename, built by scanning public/photos. Lets the
+// user drop "<id>.jpg" into that folder and have it picked up automatically.
+async function scanPhotos() {
+  const byId = new Map();
+  let files = [];
+  try {
+    files = await readdir(PHOTOS_DIR);
+  } catch {
+    return byId; // folder may not exist yet
+  }
+  for (const file of files) {
+    if (!/\.(jpe?g|png|webp|avif)$/i.test(file)) continue;
+    const id = file.replace(/\.[^.]+$/, "");
+    byId.set(id, file);
+  }
+  return byId;
+}
 
 function slug(value) {
   return value
@@ -37,6 +56,7 @@ function coordsOf(feature) {
 async function main() {
   const raw = JSON.parse(await readFile(SOURCE, "utf8"));
   const features = Array.isArray(raw.features) ? raw.features : [];
+  const photos = await scanPhotos();
 
   const seen = new Map();
   const pois = features.map((feature, index) => {
@@ -49,6 +69,9 @@ async function main() {
     seen.set(id, count + 1);
     if (count > 0) id = `${id}-${count + 1}`;
 
+    // Explicit photo in the corpus wins; otherwise pick up public/photos/<id>.*
+    const photo = p.photo ?? photos.get(id) ?? null;
+
     return {
       id,
       name,
@@ -60,6 +83,9 @@ async function main() {
       source: p.source ?? null,
       sourceNote: p.source_note ?? null,
       pictogram: p.pictogram ?? "marker",
+      photo,
+      rating: typeof p.rating === "number" ? p.rating : null,
+      info: p.info ?? null,
     };
   });
 
@@ -67,8 +93,10 @@ async function main() {
   await writeFile(OUT, JSON.stringify(pois, null, 2) + "\n", "utf8");
 
   const located = pois.filter((p) => p.lat !== null).length;
+  const rated = pois.filter((p) => p.rating !== null).length;
+  const withPhoto = pois.filter((p) => p.photo !== null).length;
   console.log(
-    `Seed écrit : ${pois.length} lieux (${located} géolocalisés) → ${OUT}`,
+    `Seed écrit : ${pois.length} lieux (${located} géolocalisés, ${rated} notés, ${withPhoto} avec photo) → ${OUT}`,
   );
 }
 

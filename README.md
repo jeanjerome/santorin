@@ -30,6 +30,23 @@ téléphone, pratique une fois sur place). La location est stockée sur l'appare
 bouton Maison centre la carte dessus et ouvre l'itinéraire Apple/Google/Waze ;
 tant qu'aucune location n'est définie, il ouvre directement la configuration.
 
+## Fiches : photos, notes et infos
+
+Chaque fiche de lieu affiche une **photo**, une **note de recommandation** (étoiles
+/5), des **informations utiles selon le type** (horaires par jour, prix, téléphone,
+tags…) et un **conseil**.
+
+- **Photos** : dépose un fichier dans `public/photos/<id>.jpg` (aussi `.png`,
+  `.webp`), où `<id>` est l'identifiant du lieu (ex. `red-beach.jpg`,
+  `metaxi-mas.jpg`). `npm run seed` le détecte automatiquement ; sans photo, un
+  visuel de repli (dégradé + emoji de catégorie) s'affiche. Les `id` sont listés
+  par `npm run seed`.
+- **Notes / horaires / infos** : stockés dans
+  `data/santorini-corpus-restreint.geojson` (`rating` et `info` par lieu). Les
+  valeurs actuelles proviennent de **recherches web (été 2025/2026) et sont à
+  vérifier/ajuster** — les notes Google des supermarchés et laveries n'ont pas pu
+  être confirmées et restent vides. Éditer le GeoJSON puis relancer `npm run seed`.
+
 ## Pile technique
 
 - **Vite** + **TypeScript** (aucun framework UI, DOM natif)
@@ -50,7 +67,9 @@ src/
   ui/        Barre de filtres, fiche détail, liste
   lib/       Liens profonds de navigation (Apple/Google/Waze)
   styles/    Tokens et styles globaux
-public/      Artefacts générés (pois.json, icônes) — non versionnés
+public/
+  photos/    Photos des lieux (<id>.jpg) — versionnées
+  data/, icons/  Artefacts générés — non versionnés
 ```
 
 ## Démarrage
