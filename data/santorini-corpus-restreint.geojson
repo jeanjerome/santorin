@@ -1,0 +1,506 @@
+{
+  "type": "FeatureCollection",
+  "name": "santorini_corpus_restreint",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AB Vassilopoulos",
+        "category": "Supermarché",
+        "address": "non précisé",
+        "gps": null,
+        "source": null,
+        "source_note": "Introuvable dans les six sources autorisées.",
+        "pictogram": "shopping-cart",
+        "label": "AB Fira"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lidl Hellas",
+        "category": "Supermarché",
+        "address": "non précisé",
+        "gps": null,
+        "source": null,
+        "source_note": "Introuvable dans les six sources autorisées.",
+        "pictogram": "shopping-cart",
+        "label": "Lidl Fira"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Masoutis Pyrgos",
+        "category": "Supermarché",
+        "address": "non précisé",
+        "gps": null,
+        "source": null,
+        "source_note": "Introuvable dans les six sources autorisées.",
+        "pictogram": "shopping-cart",
+        "label": "Masoutis Pyrgos"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Masoutis Emporio",
+        "category": "Supermarché",
+        "address": "non précisé",
+        "gps": null,
+        "source": null,
+        "source_note": "Introuvable dans les six sources autorisées.",
+        "pictogram": "shopping-cart",
+        "label": "Masoutis Emporio"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sklavenitis Mesaria",
+        "category": "Supermarché",
+        "address": "non précisé",
+        "gps": null,
+        "source": null,
+        "source_note": "Introuvable dans les six sources autorisées.",
+        "pictogram": "shopping-cart",
+        "label": "Sklavenitis Mesaria"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kritikos Mesaria",
+        "category": "Supermarché",
+        "address": "non précisé",
+        "gps": null,
+        "source": null,
+        "source_note": "Introuvable dans les six sources autorisées.",
+        "pictogram": "shopping-cart",
+        "label": "Kritikos Mesaria"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Smart Wash Santorini",
+        "category": "Laverie",
+        "address": "non précisé",
+        "gps": null,
+        "source": null,
+        "source_note": "Introuvable dans les six sources autorisées.",
+        "pictogram": "bubbles",
+        "label": "Smart Wash"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AD Laundry",
+        "category": "Laverie",
+        "address": "non précisé",
+        "gps": null,
+        "source": null,
+        "source_note": "Introuvable dans les six sources autorisées.",
+        "pictogram": "bubbles",
+        "label": "AD Laundry"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pro Laundry Santorini",
+        "category": "Laverie",
+        "address": "non précisé",
+        "gps": null,
+        "source": null,
+        "source_note": "Introuvable dans les six sources autorisées.",
+        "pictogram": "bubbles",
+        "label": "Pro Laundry"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crystal Bee Santorini",
+        "category": "Laverie",
+        "address": "non précisé",
+        "gps": null,
+        "source": null,
+        "source_note": "Introuvable dans les six sources autorisées.",
+        "pictogram": "bubbles",
+        "label": "Crystal Bee"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santorini Laundry",
+        "category": "Laverie",
+        "address": "non précisé",
+        "gps": null,
+        "source": null,
+        "source_note": "Introuvable dans les six sources autorisées.",
+        "pictogram": "bubbles",
+        "label": "Santorini Laundry"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Red Beach",
+        "category": "Plage",
+        "address": "Akrotiri, Santorin",
+        "gps": {
+          "lat": 36.348878,
+          "lon": 25.39309
+        },
+        "source": "https://nl.wikivoyage.org/wiki/Santorini",
+        "pictogram": "beach",
+        "label": "Red Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.39309, 36.348878]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "White Beach",
+        "category": "Plage",
+        "address": "Akrotiri, Santorin",
+        "gps": {
+          "lat": 36.35047,
+          "lon": 25.38237
+        },
+        "source": "https://en.wikivoyage.org/wiki/Akrotiri",
+        "pictogram": "beach",
+        "label": "White Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.38237, 36.35047]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamari Beach",
+        "category": "Plage",
+        "address": "Kamari, Santorin",
+        "gps": {
+          "lat": 36.373093,
+          "lon": 25.483102
+        },
+        "source": "https://nl.wikivoyage.org/wiki/Santorini",
+        "pictogram": "beach",
+        "label": "Kamari Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.483102, 36.373093]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Perissa Beach",
+        "category": "Plage",
+        "address": "Perissa, Santorin",
+        "gps": {
+          "lat": 36.3567,
+          "lon": 25.476
+        },
+        "source": "https://en.wikivoyage.org/wiki/Perissa",
+        "pictogram": "beach",
+        "label": "Perissa Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.476, 36.3567]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Perivolos Beach",
+        "category": "Plage",
+        "address": "Perivolos, Santorin",
+        "gps": null,
+        "source": "https://www.lonelyplanet.fr/article/8-des-plus-belles-plages-de-santorin",
+        "source_note": "Plage mentionnée sans coordonnées exploitables.",
+        "pictogram": "beach",
+        "label": "Perivolos Beach"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vlychada Beach",
+        "category": "Plage",
+        "address": "Vlychada, Santorin",
+        "gps": {
+          "lat": 36.339393,
+          "lon": 25.431821
+        },
+        "source": "https://nl.wikivoyage.org/wiki/Santorini",
+        "pictogram": "beach",
+        "label": "Vlychada Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.431821, 36.339393]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monolithos Beach",
+        "category": "Plage",
+        "address": "Monolithos, Santorin",
+        "gps": null,
+        "source": "https://nl.wikivoyage.org/wiki/Santorini",
+        "source_note": "Le corpus repère Monolithos, pas un point plage exact.",
+        "pictogram": "beach",
+        "label": "Monolithos Beach"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Site archéologique d’Akrotiri",
+        "category": "Site culturel",
+        "address": "Akrotiri, Santorin",
+        "gps": {
+          "lat": 36.351,
+          "lon": 25.40271
+        },
+        "source": "https://nl.wikivoyage.org/wiki/Santorini",
+        "pictogram": "landmark",
+        "label": "Akrotiri site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.40271, 36.351]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Musée de la Préhistoire de Théra",
+        "category": "Site culturel",
+        "address": "Fira, Santorin",
+        "gps": {
+          "lat": 36.4185,
+          "lon": 25.437
+        },
+        "source": "https://en.wikivoyage.org/wiki/Fira",
+        "pictogram": "landmark",
+        "label": "Musée préhistoire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.437, 36.4185]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ancient Thera",
+        "category": "Site culturel",
+        "address": "Mesa Vouno, Kamari, Santorin",
+        "gps": {
+          "lat": 36.3644,
+          "lon": 25.4776
+        },
+        "source": "https://nl.wikivoyage.org/wiki/Santorini",
+        "pictogram": "landmark",
+        "label": "Ancient Thera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.4776, 36.3644]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Musée archéologique de Théra",
+        "category": "Site culturel",
+        "address": "Fira, Santorin",
+        "gps": {
+          "lat": 36.4178,
+          "lon": 25.4317
+        },
+        "source": "https://en.wikivoyage.org/wiki/Fira",
+        "pictogram": "landmark",
+        "label": "Musée archéo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.4317, 36.4178]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skaros Rock",
+        "category": "Site culturel",
+        "address": "Imerovigli, Santorin",
+        "gps": {
+          "lat": 36.431703,
+          "lon": 25.417523
+        },
+        "source": "https://en.wikivoyage.org/wiki/Imerovigli",
+        "pictogram": "landmark",
+        "label": "Skaros Rock"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.417523, 36.431703]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phare d’Akrotiri",
+        "category": "Site culturel",
+        "address": "Akrotiri, Santorin",
+        "gps": {
+          "lat": 36.35779,
+          "lon": 25.35706
+        },
+        "source": "https://en.wikivoyage.org/wiki/Akrotiri",
+        "pictogram": "landmark",
+        "label": "Phare Akrotiri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.35706, 36.35779]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monastère de Profitis Ilias",
+        "category": "Site culturel",
+        "address": "près de Pyrgos, Santorin",
+        "gps": {
+          "lat": 36.368214,
+          "lon": 25.463546
+        },
+        "source": "https://nl.wikivoyage.org/wiki/Santorini",
+        "pictogram": "landmark",
+        "label": "Profitis Ilias"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.463546, 36.368214]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Selene",
+        "category": "Restaurant",
+        "address": "Fira, Santorin",
+        "gps": {
+          "lat": 36.42147,
+          "lon": 25.43078
+        },
+        "source": "https://en.wikivoyage.org/wiki/Fira",
+        "pictogram": "restaurant",
+        "label": "Selene"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.43078, 36.42147]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Athenian House",
+        "category": "Restaurant",
+        "address": "Imerovigli, Santorin",
+        "gps": {
+          "lat": 36.432974,
+          "lon": 25.421376
+        },
+        "source": "https://en.wikivoyage.org/wiki/Imerovigli",
+        "pictogram": "restaurant",
+        "label": "Athenian House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.421376, 36.432974]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "To Psaraki",
+        "category": "Restaurant",
+        "address": "Vlychada, Santorin",
+        "gps": {
+          "lat": 36.337935,
+          "lon": 25.43491
+        },
+        "source": "https://en.wikivoyage.org/wiki/Vlychada",
+        "pictogram": "restaurant",
+        "label": "To Psaraki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.43491, 36.337935]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Metaxi Mas",
+        "category": "Restaurant",
+        "address": "Exo Gonia, Santorin",
+        "gps": null,
+        "source": "https://www.routard.com/forums/t/entre-ciel-et-mer-une-semaine-magnifique-a-santorin/350120",
+        "source_note": "Restaurant situé textuellement à Exo Gonia, sans coordonnées exploitables.",
+        "pictogram": "restaurant",
+        "label": "Metaxi Mas"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gare routière de Fira",
+        "category": "Service pratique",
+        "address": "Fira, Santorin",
+        "gps": {
+          "lat": 36.416546,
+          "lon": 25.43343
+        },
+        "source": "https://nl.wikivoyage.org/wiki/Santorini",
+        "pictogram": "bus",
+        "label": "Bus Fira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.43343, 36.416546]
+      }
+    }
+  ]
+}

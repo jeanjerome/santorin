@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Generated build artifacts
+public/data/pois.json
+public/icons/
+public/basemap/
+
+# Editor / OS
+.DS_Store
+.vscode/
+*.log

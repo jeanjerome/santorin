@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Santorin corpus restreint</name>
+
+    <Folder>
+      <name>Supermarché</name>
+      <Placemark><name>AB Fira</name><description><![CDATA[Catégorie: Supermarché<br/>Adresse: non précisé<br/>GPS: non précisé<br/>Note: Introuvable dans les six sources autorisées.]]></description></Placemark>
+      <Placemark><name>Lidl Fira</name><description><![CDATA[Catégorie: Supermarché<br/>Adresse: non précisé<br/>GPS: non précisé<br/>Note: Introuvable dans les six sources autorisées.]]></description></Placemark>
+      <Placemark><name>Masoutis Pyrgos</name><description><![CDATA[Catégorie: Supermarché<br/>Adresse: non précisé<br/>GPS: non précisé<br/>Note: Introuvable dans les six sources autorisées.]]></description></Placemark>
+      <Placemark><name>Masoutis Emporio</name><description><![CDATA[Catégorie: Supermarché<br/>Adresse: non précisé<br/>GPS: non précisé<br/>Note: Introuvable dans les six sources autorisées.]]></description></Placemark>
+      <Placemark><name>Sklavenitis Mesaria</name><description><![CDATA[Catégorie: Supermarché<br/>Adresse: non précisé<br/>GPS: non précisé<br/>Note: Introuvable dans les six sources autorisées.]]></description></Placemark>
+      <Placemark><name>Kritikos Mesaria</name><description><![CDATA[Catégorie: Supermarché<br/>Adresse: non précisé<br/>GPS: non précisé<br/>Note: Introuvable dans les six sources autorisées.]]></description></Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Laverie</name>
+      <Placemark><name>Smart Wash</name><description><![CDATA[Catégorie: Laverie<br/>Adresse: non précisé<br/>GPS: non précisé<br/>Note: Introuvable dans les six sources autorisées.]]></description></Placemark>
+      <Placemark><name>AD Laundry</name><description><![CDATA[Catégorie: Laverie<br/>Adresse: non précisé<br/>GPS: non précisé<br/>Note: Introuvable dans les six sources autorisées.]]></description></Placemark>
+      <Placemark><name>Pro Laundry</name><description><![CDATA[Catégorie: Laverie<br/>Adresse: non précisé<br/>GPS: non précisé<br/>Note: Introuvable dans les six sources autorisées.]]></description></Placemark>
+      <Placemark><name>Crystal Bee</name><description><![CDATA[Catégorie: Laverie<br/>Adresse: non précisé<br/>GPS: non précisé<br/>Note: Introuvable dans les six sources autorisées.]]></description></Placemark>
+      <Placemark><name>Santorini Laundry</name><description><![CDATA[Catégorie: Laverie<br/>Adresse: non précisé<br/>GPS: non précisé<br/>Note: Introuvable dans les six sources autorisées.]]></description></Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Plage</name>
+      <Placemark><name>Red Beach</name><description><![CDATA[Catégorie: Plage<br/>Adresse: Akrotiri, Santorin<br/>GPS: 36.348878, 25.393090<br/>Source: https://nl.wikivoyage.org/wiki/Santorini]]></description><Point><coordinates>25.39309,36.348878,0</coordinates></Point></Placemark>
+      <Placemark><name>White Beach</name><description><![CDATA[Catégorie: Plage<br/>Adresse: Akrotiri, Santorin<br/>GPS: 36.350470, 25.382370<br/>Source: https://en.wikivoyage.org/wiki/Akrotiri]]></description><Point><coordinates>25.38237,36.35047,0</coordinates></Point></Placemark>
+      <Placemark><name>Kamari Beach</name><description><![CDATA[Catégorie: Plage<br/>Adresse: Kamari, Santorin<br/>GPS: 36.373093, 25.483102<br/>Source: https://nl.wikivoyage.org/wiki/Santorini]]></description><Point><coordinates>25.483102,36.373093,0</coordinates></Point></Placemark>
+      <Placemark><name>Perissa Beach</name><description><![CDATA[Catégorie: Plage<br/>Adresse: Perissa, Santorin<br/>GPS: 36.356700, 25.476000<br/>Source: https://en.wikivoyage.org/wiki/Perissa]]></description><Point><coordinates>25.476,36.3567,0</coordinates></Point></Placemark>
+      <Placemark><name>Perivolos Beach</name><description><![CDATA[Catégorie: Plage<br/>Adresse: Perivolos, Santorin<br/>GPS: non précisé<br/>Source: https://www.lonelyplanet.fr/article/8-des-plus-belles-plages-de-santorin<br/>Note: plage mentionnée sans coordonnées exploitables.]]></description></Placemark>
+      <Placemark><name>Vlychada Beach</name><description><![CDATA[Catégorie: Plage<br/>Adresse: Vlychada, Santorin<br/>GPS: 36.339393, 25.431821<br/>Source: https://nl.wikivoyage.org/wiki/Santorini]]></description><Point><coordinates>25.431821,36.339393,0</coordinates></Point></Placemark>
+      <Placemark><name>Monolithos Beach</name><description><![CDATA[Catégorie: Plage<br/>Adresse: Monolithos, Santorin<br/>GPS: non précisé<br/>Source: https://nl.wikivoyage.org/wiki/Santorini<br/>Note: le corpus repère Monolithos, pas un point plage exact.]]></description></Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Site culturel</name>
+      <Placemark><name>Akrotiri site</name><description><![CDATA[Catégorie: Site culturel<br/>Adresse: Akrotiri, Santorin<br/>GPS: 36.351000, 25.402710<br/>Source: https://nl.wikivoyage.org/wiki/Santorini]]></description><Point><coordinates>25.40271,36.351,0</coordinates></Point></Placemark>
+      <Placemark><name>Musée préhistoire</name><description><![CDATA[Catégorie: Site culturel<br/>Adresse: Fira, Santorin<br/>GPS: 36.418500, 25.437000<br/>Source: https://en.wikivoyage.org/wiki/Fira]]></description><Point><coordinates>25.437,36.4185,0</coordinates></Point></Placemark>
+      <Placemark><name>Ancient Thera</name><description><![CDATA[Catégorie: Site culturel<br/>Adresse: Mesa Vouno, Kamari, Santorin<br/>GPS: 36.364400, 25.477600<br/>Source: https://nl.wikivoyage.org/wiki/Santorini]]></description><Point><coordinates>25.4776,36.3644,0</coordinates></Point></Placemark>
+      <Placemark><name>Musée archéo</name><description><![CDATA[Catégorie: Site culturel<br/>Adresse: Fira, Santorin<br/>GPS: 36.417800, 25.431700<br/>Source: https://en.wikivoyage.org/wiki/Fira]]></description><Point><coordinates>25.4317,36.4178,0</coordinates></Point></Placemark>
+      <Placemark><name>Skaros Rock</name><description><![CDATA[Catégorie: Site culturel<br/>Adresse: Imerovigli, Santorin<br/>GPS: 36.431703, 25.417523<br/>Source: https://en.wikivoyage.org/wiki/Imerovigli]]></description><Point><coordinates>25.417523,36.431703,0</coordinates></Point></Placemark>
+      <Placemark><name>Phare Akrotiri</name><description><![CDATA[Catégorie: Site culturel<br/>Adresse: Akrotiri, Santorin<br/>GPS: 36.357790, 25.357060<br/>Source: https://en.wikivoyage.org/wiki/Akrotiri]]></description><Point><coordinates>25.35706,36.35779,0</coordinates></Point></Placemark>
+      <Placemark><name>Profitis Ilias</name><description><![CDATA[Catégorie: Site culturel<br/>Adresse: près de Pyrgos, Santorin<br/>GPS: 36.368214, 25.463546<br/>Source: https://nl.wikivoyage.org/wiki/Santorini]]></description><Point><coordinates>25.463546,36.368214,0</coordinates></Point></Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Restaurant</name>
+      <Placemark><name>Selene</name><description><![CDATA[Catégorie: Restaurant<br/>Adresse: Fira, Santorin<br/>GPS: 36.421470, 25.430780<br/>Source: https://en.wikivoyage.org/wiki/Fira]]></description><Point><coordinates>25.43078,36.42147,0</coordinates></Point></Placemark>
+      <Placemark><name>Athenian House</name><description><![CDATA[Catégorie: Restaurant<br/>Adresse: Imerovigli, Santorin<br/>GPS: 36.432974, 25.421376<br/>Source: https://en.wikivoyage.org/wiki/Imerovigli]]></description><Point><coordinates>25.421376,36.432974,0</coordinates></Point></Placemark>
+      <Placemark><name>To Psaraki</name><description><![CDATA[Catégorie: Restaurant<br/>Adresse: Vlychada, Santorin<br/>GPS: 36.337935, 25.434910<br/>Source: https://en.wikivoyage.org/wiki/Vlychada]]></description><Point><coordinates>25.43491,36.337935,0</coordinates></Point></Placemark>
+      <Placemark><name>Metaxi Mas</name><description><![CDATA[Catégorie: Restaurant<br/>Adresse: Exo Gonia, Santorin<br/>GPS: non précisé<br/>Source: https://www.routard.com/forums/t/entre-ciel-et-mer-une-semaine-magnifique-a-santorin/350120<br/>Note: restaurant localisé textuellement sans coordonnées exploitables.]]></description></Placemark>
+    </Folder>
+
+    <Folder>
+      <name>Service pratique</name>
+      <Placemark><name>Bus Fira</name><description><![CDATA[Catégorie: Service pratique<br/>Adresse: Fira, Santorin<br/>GPS: 36.416546, 25.433430<br/>Source: https://nl.wikivoyage.org/wiki/Santorini]]></description><Point><coordinates>25.43343,36.416546,0</coordinates></Point></Placemark>
+    </Folder>
+  </Document>
+</kml>

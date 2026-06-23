@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a8aa8"/>
+      <stop offset="1" stop-color="#155263"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#sea)"/>
+  <!-- whitewashed Cycladic house with a blue dome -->
+  <g transform="translate(96 120)">
+    <rect x="40" y="150" width="240" height="150" rx="10" fill="#f7f4ec"/>
+    <rect x="70" y="200" width="50" height="100" fill="#e7e1d4"/>
+    <rect x="200" y="200" width="50" height="100" fill="#e7e1d4"/>
+    <path d="M120 150a40 40 0 0 1 80 0z" fill="#1f6f8b"/>
+    <circle cx="160" cy="110" r="40" fill="#1f6f8b"/>
+    <rect x="152" y="40" width="16" height="40" rx="6" fill="#f7f4ec"/>
+    <rect x="138" y="56" width="44" height="12" rx="6" fill="#f7f4ec"/>
+  </g>
+  <!-- location pin accent -->
+  <g transform="translate(330 300)">
+    <path d="M40 0a40 40 0 0 0-40 40c0 30 40 70 40 70s40-40 40-70A40 40 0 0 0 40 0z" fill="#d1495b"/>
+    <circle cx="40" cy="40" r="16" fill="#fff"/>
+  </g>
+</svg>

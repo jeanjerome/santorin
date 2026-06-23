@@ -1,0 +1,40 @@
+/* Design tokens — a calm Aegean palette: whitewashed sand, sea blue, dome teal.
+   Sizes use safe-area insets so the layout sits correctly on a notched iPhone. */
+:root {
+  --color-sea: #1f6f8b;
+  --color-sea-deep: #155263;
+  --color-sand: #f4f1ea;
+  --color-surface: #ffffff;
+  --color-surface-2: #faf8f3;
+  --color-text: #1d2733;
+  --color-text-soft: #5b6675;
+  --color-border: #e4ded2;
+  --color-shadow: rgba(21, 82, 99, 0.18);
+
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  --app-bar-h: 52px;
+  --filter-bar-h: 56px;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+
+  --text-title: clamp(1.1rem, 1rem + 1.2vw, 1.4rem);
+  --text-base: 1rem;
+  --text-sm: 0.85rem;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+
+  --duration-fast: 150ms;
+  --duration-normal: 280ms;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --shadow-sheet: 0 -8px 30px var(--color-shadow);
+  --shadow-card: 0 2px 10px rgba(29, 39, 51, 0.08);
+}
