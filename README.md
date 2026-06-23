@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/icon.png" alt="Santorin" width="128" height="128" />
+</p>
+
 # Santorin — Lieux d'intérêt
 
 Carte personnelle des lieux d'intérêt de Santorin (plages, supermarchés,
@@ -34,7 +38,7 @@ tant qu'aucune location n'est définie, il ouvre directement la configuration.
 ```
 data/        Corpus source (GeoJSON + KML)
 docs/        Guides pratiques de Santorin
-assets/      Source SVG de l'icône
+assets/      Source de l'icône (icon-source.png) + image README
 scripts/     Génération du seed, des icônes et du fond de carte
 src/
   data/      Modèle POI, chargement, catégories
