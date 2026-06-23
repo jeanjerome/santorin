@@ -11,6 +11,16 @@ d'un compte développeur Apple. On l'ouvre dans Safari sur l'iPhone, on l'ajoute
 à l'écran d'accueil, et elle se comporte comme une app native — y compris hors
 ligne une fois ouverte une première fois.
 
+## Ma location (Maison)
+
+Le premier bouton du sélecteur, **🏠 Maison**, pointe vers ton logement. Les
+coordonnées se saisissent dans la page **Configuration** (bouton ⚙️ en haut à
+droite) : à la main, ou via **« Utiliser ma position actuelle »** (GPS du
+téléphone, pratique une fois sur place). La location est stockée sur l'appareil
+(`localStorage`), donc conservée hors ligne et jamais transmise. Un tap sur le
+bouton Maison centre la carte dessus et ouvre l'itinéraire Apple/Google/Waze ;
+tant qu'aucune location n'est définie, il ouvre directement la configuration.
+
 ## Pile technique
 
 - **Vite** + **TypeScript** (aucun framework UI, DOM natif)

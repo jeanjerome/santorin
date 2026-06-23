@@ -22,8 +22,17 @@ export const CATEGORIES: CategoryMeta[] = [
   { key: "Service pratique", label: "Services", color: "#6c757d", glyph: "🚌" },
 ];
 
+// The user's accommodation. Kept out of CATEGORIES (so it is not a filter chip
+// nor a list group) but resolvable by categoryMeta for the marker and sheet.
+export const HOME_META: CategoryMeta = {
+  key: "Maison",
+  label: "Ma location",
+  color: "#e76f51",
+  glyph: "🏠",
+};
+
 const BY_KEY: ReadonlyMap<string, CategoryMeta> = new Map(
-  CATEGORIES.map((c) => [c.key, c]),
+  [...CATEGORIES, HOME_META].map((c) => [c.key, c]),
 );
 
 const FALLBACK: CategoryMeta = {

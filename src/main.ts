@@ -1,11 +1,13 @@
 import L from "leaflet";
 import "./styles/global.css";
 import { loadPois, isLocated, type Poi } from "./data/poi";
+import { getHome, homeToPoi, type HomeLocation } from "./data/home";
 import { createMap } from "./map/createMap";
 import { createMarker, type MarkerHandle } from "./map/markers";
 import { FilterBar } from "./ui/FilterBar";
 import { PoiList } from "./ui/PoiList";
 import { PoiSheet } from "./ui/PoiSheet";
+import { SettingsPage } from "./ui/SettingsPage";
 
 // Application wiring: load the POI seed, draw markers, and keep the map markers,
 // the list view, and the category filter in sync from a single source of truth.
@@ -27,7 +29,9 @@ function showBanner(message: string): void {
 async function bootstrap(): Promise<void> {
   const mapEl = requireEl("map");
   const listEl = requireEl<HTMLElement>("list");
-  const filterEl = requireEl("filter-bar");
+  const chipsEl = requireEl("filter-chips");
+  const homeChip = requireEl<HTMLButtonElement>("home-chip");
+  const settingsBtn = requireEl<HTMLButtonElement>("settings-btn");
   const sheetRoot = requireEl("sheet-root");
   const toggle = requireEl<HTMLButtonElement>("view-toggle");
 
@@ -52,8 +56,41 @@ async function bootstrap(): Promise<void> {
     .filter(isLocated)
     .map((poi) => createMarker(poi, (p) => sheet.open(p)));
 
-  const filterBar = new FilterBar(filterEl, applyFilter);
+  const filterBar = new FilterBar(chipsEl, applyFilter);
   filterBar.render(pois);
+
+  // Home marker lives on its own layer so it is always visible regardless of
+  // category filters. Its state is driven by localStorage via the settings page.
+  const homeLayer = L.layerGroup().addTo(map);
+  let home: HomeLocation | null = getHome();
+
+  function renderHome(): void {
+    homeLayer.clearLayers();
+    homeChip.classList.toggle("is-set", home !== null);
+    if (home) {
+      const handle = createMarker(homeToPoi(home), (p) => sheet.open(p));
+      handle.marker.addTo(homeLayer);
+    }
+  }
+
+  function focusHome(): void {
+    if (home) {
+      map.flyTo([home.lat, home.lon], 15);
+      sheet.open(homeToPoi(home));
+    } else {
+      settings.open();
+    }
+  }
+
+  const settings = new SettingsPage(sheetRoot, (next) => {
+    home = next;
+    renderHome();
+    if (next) focusHome();
+  });
+
+  homeChip.addEventListener("click", focusHome);
+  settingsBtn.addEventListener("click", () => settings.open());
+  renderHome();
 
   const list = new PoiList(listEl, (p) => sheet.open(p));
 

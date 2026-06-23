@@ -19,17 +19,32 @@
     <div id="app">
       <header class="app-bar">
         <h1 class="app-bar__title">Santorin</h1>
-        <button
-          id="view-toggle"
-          class="app-bar__toggle"
-          type="button"
-          aria-pressed="false"
-        >
-          Liste
-        </button>
+        <div class="app-bar__actions">
+          <button
+            id="settings-btn"
+            class="app-bar__icon"
+            type="button"
+            aria-label="Configuration"
+          >
+            ⚙️
+          </button>
+          <button
+            id="view-toggle"
+            class="app-bar__toggle"
+            type="button"
+            aria-pressed="false"
+          >
+            Liste
+          </button>
+        </div>
       </header>
 
-      <nav id="filter-bar" class="filter-bar" aria-label="Filtrer par catégorie"></nav>
+      <nav id="filter-bar" class="filter-bar" aria-label="Sélection des lieux">
+        <button id="home-chip" class="chip chip--home" type="button">
+          🏠 Maison
+        </button>
+        <span id="filter-chips" class="filter-chips"></span>
+      </nav>
 
       <main class="content">
         <div id="map" class="map" role="application" aria-label="Carte de Santorin"></div>
