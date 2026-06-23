@@ -8,13 +8,22 @@
         "name": "AB Vassilopoulos",
         "category": "Supermarché",
         "address": "non précisé",
-        "gps": null,
-        "source": null,
-        "source_note": "Introuvable dans les six sources autorisées.",
+        "gps": {
+          "lat": 36.4053207,
+          "lon": 25.4365031
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "AB (Vassilopoulos) géolocalisé via OpenStreetMap.",
         "pictogram": "shopping-cart",
         "label": "AB Fira"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4365031,
+          36.4053207
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -22,13 +31,22 @@
         "name": "Lidl Hellas",
         "category": "Supermarché",
         "address": "non précisé",
-        "gps": null,
-        "source": null,
-        "source_note": "Introuvable dans les six sources autorisées.",
+        "gps": {
+          "lat": 36.4010519,
+          "lon": 25.4379138
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Supermarché Lidl géolocalisé via OpenStreetMap.",
         "pictogram": "shopping-cart",
         "label": "Lidl Fira"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4379138,
+          36.4010519
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -64,13 +82,22 @@
         "name": "Sklavenitis Mesaria",
         "category": "Supermarché",
         "address": "non précisé",
-        "gps": null,
-        "source": null,
-        "source_note": "Introuvable dans les six sources autorisées.",
+        "gps": {
+          "lat": 36.3974298,
+          "lon": 25.4506147
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Σκλαβενίτης (Mesaria) géolocalisé via OpenStreetMap.",
         "pictogram": "shopping-cart",
         "label": "Sklavenitis Mesaria"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4506147,
+          36.3974298
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -78,13 +105,22 @@
         "name": "Kritikos Mesaria",
         "category": "Supermarché",
         "address": "non précisé",
-        "gps": null,
-        "source": null,
-        "source_note": "Introuvable dans les six sources autorisées.",
+        "gps": {
+          "lat": 36.3993968,
+          "lon": 25.4512387
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "ΚΡΗΤΙΚΟΣ (Mesaria) géolocalisé via OpenStreetMap.",
         "pictogram": "shopping-cart",
         "label": "Kritikos Mesaria"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4512387,
+          36.3993968
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -172,7 +208,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.39309, 36.348878]
+        "coordinates": [
+          25.39309,
+          36.348878
+        ]
       }
     },
     {
@@ -191,7 +230,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.38237, 36.35047]
+        "coordinates": [
+          25.38237,
+          36.35047
+        ]
       }
     },
     {
@@ -210,7 +252,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.483102, 36.373093]
+        "coordinates": [
+          25.483102,
+          36.373093
+        ]
       }
     },
     {
@@ -229,7 +274,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.476, 36.3567]
+        "coordinates": [
+          25.476,
+          36.3567
+        ]
       }
     },
     {
@@ -238,13 +286,22 @@
         "name": "Perivolos Beach",
         "category": "Plage",
         "address": "Perivolos, Santorin",
-        "gps": null,
-        "source": "https://www.lonelyplanet.fr/article/8-des-plus-belles-plages-de-santorin",
-        "source_note": "Plage mentionnée sans coordonnées exploitables.",
+        "gps": {
+          "lat": 36.3441005,
+          "lon": 25.4628175
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Plage géolocalisée via OpenStreetMap.",
         "pictogram": "beach",
         "label": "Perivolos Beach"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4628175,
+          36.3441005
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -262,7 +319,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.431821, 36.339393]
+        "coordinates": [
+          25.431821,
+          36.339393
+        ]
       }
     },
     {
@@ -271,13 +331,22 @@
         "name": "Monolithos Beach",
         "category": "Plage",
         "address": "Monolithos, Santorin",
-        "gps": null,
-        "source": "https://nl.wikivoyage.org/wiki/Santorini",
-        "source_note": "Le corpus repère Monolithos, pas un point plage exact.",
+        "gps": {
+          "lat": 36.4123365,
+          "lon": 25.4829011
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Plage géolocalisée via OpenStreetMap.",
         "pictogram": "beach",
         "label": "Monolithos Beach"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4829011,
+          36.4123365
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -295,7 +364,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.40271, 36.351]
+        "coordinates": [
+          25.40271,
+          36.351
+        ]
       }
     },
     {
@@ -314,7 +386,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.437, 36.4185]
+        "coordinates": [
+          25.437,
+          36.4185
+        ]
       }
     },
     {
@@ -333,7 +408,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.4776, 36.3644]
+        "coordinates": [
+          25.4776,
+          36.3644
+        ]
       }
     },
     {
@@ -352,7 +430,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.4317, 36.4178]
+        "coordinates": [
+          25.4317,
+          36.4178
+        ]
       }
     },
     {
@@ -371,7 +452,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.417523, 36.431703]
+        "coordinates": [
+          25.417523,
+          36.431703
+        ]
       }
     },
     {
@@ -390,7 +474,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.35706, 36.35779]
+        "coordinates": [
+          25.35706,
+          36.35779
+        ]
       }
     },
     {
@@ -409,7 +496,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.463546, 36.368214]
+        "coordinates": [
+          25.463546,
+          36.368214
+        ]
       }
     },
     {
@@ -428,7 +518,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.43078, 36.42147]
+        "coordinates": [
+          25.43078,
+          36.42147
+        ]
       }
     },
     {
@@ -447,7 +540,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.421376, 36.432974]
+        "coordinates": [
+          25.421376,
+          36.432974
+        ]
       }
     },
     {
@@ -466,7 +562,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.43491, 36.337935]
+        "coordinates": [
+          25.43491,
+          36.337935
+        ]
       }
     },
     {
@@ -475,13 +574,22 @@
         "name": "Metaxi Mas",
         "category": "Restaurant",
         "address": "Exo Gonia, Santorin",
-        "gps": null,
-        "source": "https://www.routard.com/forums/t/entre-ciel-et-mer-une-semaine-magnifique-a-santorin/350120",
-        "source_note": "Restaurant situé textuellement à Exo Gonia, sans coordonnées exploitables.",
+        "gps": {
+          "lat": 36.3879521,
+          "lon": 25.457357
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Restaurant « Μεταξύ Μας » géolocalisé via OpenStreetMap.",
         "pictogram": "restaurant",
         "label": "Metaxi Mas"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.457357,
+          36.3879521
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -499,7 +607,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.43343, 36.416546]
+        "coordinates": [
+          25.43343,
+          36.416546
+        ]
       }
     }
   ]
