@@ -203,16 +203,19 @@
         "name": "Smart Wash Santorini",
         "category": "Laverie",
         "address": "non précisé",
-        "gps": null,
-        "source": null,
-        "source_note": "Introuvable dans les six sources autorisées.",
+        "gps": {
+          "lat": 36.41627174359912,
+          "lon": 25.43419436202524
+        },
+        "source": "https://maps.google.com/",
+        "source_note": "Laverie libre-service géolocalisée via Google Maps.",
         "pictogram": "bubbles",
         "label": "Smart Wash",
         "info": {
           "hours": [
             {
               "day": "Lun–Dim",
-              "value": "07:00–23:00"
+              "value": "07:00–01:00"
             }
           ],
           "phone": "+30 695 543 2391",
@@ -222,9 +225,16 @@
             "Lessive incluse"
           ],
           "tip": "Laverie libre-service à Fira, ouverte toute l'année. Machines 10 kg (dès 5 €) ou 15 kg (8 €), séchage 1 €/10 min."
-        }
+        },
+        "rating": 5
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.43419436202524,
+          36.41627174359912
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -232,95 +242,45 @@
         "name": "AD Laundry",
         "category": "Laverie",
         "address": "non précisé",
-        "gps": null,
-        "source": null,
-        "source_note": "Introuvable dans les six sources autorisées.",
+        "gps": {
+          "lat": 36.418941060494525,
+          "lon": 25.43364039911295
+        },
+        "source": "https://maps.google.com/",
+        "source_note": "Laverie à dépôt géolocalisée via Google Maps.",
         "pictogram": "bubbles",
         "label": "AD Laundry",
         "info": {
+          "hours": [
+            {
+              "day": "Lun–Ven",
+              "value": "09:00–16:00"
+            },
+            {
+              "day": "Sam",
+              "value": "09:00–14:00"
+            },
+            {
+              "day": "Dim",
+              "value": "Fermé"
+            }
+          ],
           "phone": "+30 22860 23533",
           "tags": [
             "Service au comptoir",
             "Dépôt"
           ],
-          "tip": "Laverie à dépôt à Fira (pas de libre-service). Appeler pour horaires et tarifs."
-        }
+          "tip": "Laverie à dépôt à Fira (pas de libre-service). Déposer le linge, récupération lavé et séché."
+        },
+        "rating": 4.7
       },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pro Laundry Santorini",
-        "category": "Laverie",
-        "address": "non précisé",
-        "gps": null,
-        "source": null,
-        "source_note": "Introuvable dans les six sources autorisées.",
-        "pictogram": "bubbles",
-        "label": "Pro Laundry",
-        "info": {
-          "hours": [
-            {
-              "day": "Lun–Dim",
-              "value": "07:00–22:00"
-            }
-          ],
-          "phone": "+30 698 334 4076",
-          "tags": [
-            "Enlèvement & livraison gratuits",
-            "Lavage-séchage-pliage",
-            "Nettoyage à sec"
-          ],
-          "tip": "Service à domicile depuis Messaria : collecte et livraison gratuites sur toute l'île."
-        }
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Crystal Bee Santorini",
-        "category": "Laverie",
-        "address": "non précisé",
-        "gps": null,
-        "source": null,
-        "source_note": "Introuvable dans les six sources autorisées.",
-        "pictogram": "bubbles",
-        "label": "Crystal Bee",
-        "info": {
-          "phone": "+30 6948 890009",
-          "tags": [
-            "Enlèvement & livraison",
-            "Linge d'hôtel",
-            "Nettoyage à sec"
-          ],
-          "tip": "Pressing à Pyrgos plutôt orienté hôtels et villas. Collecte tous les jours sauf dimanche."
-        }
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Santorini Laundry",
-        "category": "Laverie",
-        "address": "non précisé",
-        "gps": null,
-        "source": null,
-        "source_note": "Introuvable dans les six sources autorisées.",
-        "pictogram": "bubbles",
-        "label": "Santorini Laundry",
-        "info": {
-          "phone": "+30 22860 36236",
-          "tags": [
-            "Blanchisserie industrielle",
-            "Linge d'hôtel"
-          ],
-          "tip": "Blanchisserie industrielle à Monolithos dédiée aux hôtels — pas un service pour les voyageurs."
-        }
-      },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.43364039911295,
+          36.418941060494525
+        ]
+      }
     },
     {
       "type": "Feature",
