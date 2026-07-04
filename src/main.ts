@@ -103,6 +103,8 @@ async function bootstrap(): Promise<void> {
     layer.clearLayers();
     for (const handle of handles) {
       if (active.has(handle.poi.category)) {
+        // Draw the route beneath the marker so the pin stays on top.
+        handle.route?.addTo(layer);
         handle.marker.addTo(layer);
       }
     }

@@ -49,5 +49,6 @@ export function homeToPoi(home: HomeLocation): Poi & { lat: number; lon: number 
     photo: null,
     rating: null,
     info: null,
+    route: null,
   };
 }

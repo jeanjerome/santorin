@@ -19,6 +19,9 @@ export interface PoiInfo {
   readonly tip?: string;
 }
 
+/** An ordered [latitude, longitude] pair, in Leaflet coordinate order. */
+export type LatLon = readonly [number, number];
+
 export interface Poi {
   readonly id: string;
   readonly name: string;
@@ -35,6 +38,8 @@ export interface Poi {
   /** Recommendation rating from 0 to 5, or null. */
   readonly rating: number | null;
   readonly info: PoiInfo | null;
+  /** Polyline of the itinerary (e.g. a hiking trail) to draw, or null. */
+  readonly route: LatLon[] | null;
 }
 
 /** A POI guaranteed to carry coordinates — safe to place on the map. */
@@ -59,6 +64,7 @@ interface RawPoi {
   photo?: unknown;
   rating?: unknown;
   info?: unknown;
+  route?: unknown;
 }
 
 function str(value: unknown, fallback = ""): string {
@@ -98,6 +104,24 @@ function parseHours(value: unknown): PoiHours[] | undefined {
   return out.length > 0 ? out : undefined;
 }
 
+function parseRoute(value: unknown): LatLon[] | null {
+  if (!Array.isArray(value)) return null;
+  const out: LatLon[] = [];
+  for (const point of value) {
+    if (
+      Array.isArray(point) &&
+      typeof point[0] === "number" &&
+      typeof point[1] === "number" &&
+      Number.isFinite(point[0]) &&
+      Number.isFinite(point[1])
+    ) {
+      out.push([point[0], point[1]]);
+    }
+  }
+  // A single point is not a drawable line.
+  return out.length >= 2 ? out : null;
+}
+
 function parseInfo(value: unknown): PoiInfo | null {
   if (!value || typeof value !== "object") return null;
   const raw = value as Record<string, unknown>;
@@ -130,6 +154,7 @@ function normalize(raw: RawPoi, index: number): Poi {
     photo: strOrNull(raw.photo),
     rating: ratingOrNull(raw.rating),
     info: parseInfo(raw.info),
+    route: parseRoute(raw.route),
   };
 }
 

@@ -19,6 +19,36 @@ function icon(poi: LocatedPoi): L.DivIcon {
 export interface MarkerHandle {
   poi: LocatedPoi;
   marker: L.Marker;
+  /** Trail polyline (with white casing) for POIs carrying a route, else null. */
+  route: L.FeatureGroup | null;
+}
+
+// Draw the itinerary as a colored line over a translucent white casing so it
+// stays legible on the busy OSM basemap. Tapping the line opens the same sheet.
+function routeLayer(
+  poi: LocatedPoi,
+  color: string,
+  onSelect: (poi: LocatedPoi) => void,
+): L.FeatureGroup | null {
+  if (!poi.route) return null;
+  const latlngs = poi.route.map(([lat, lon]) => L.latLng(lat, lon));
+  const casing = L.polyline(latlngs, {
+    color: "#ffffff",
+    weight: 7,
+    opacity: 0.7,
+    lineJoin: "round",
+    lineCap: "round",
+  });
+  const line = L.polyline(latlngs, {
+    color,
+    weight: 4,
+    opacity: 0.95,
+    lineJoin: "round",
+    lineCap: "round",
+  });
+  const group = L.featureGroup([casing, line]);
+  group.on("click", () => onSelect(poi));
+  return group;
 }
 
 /** Build a Leaflet marker for a located POI, invoking `onSelect` on tap. */
@@ -26,6 +56,7 @@ export function createMarker(
   poi: LocatedPoi,
   onSelect: (poi: LocatedPoi) => void,
 ): MarkerHandle {
+  const meta = categoryMeta(poi.category);
   const marker = L.marker([poi.lat, poi.lon], {
     icon: icon(poi),
     title: poi.name,
@@ -33,5 +64,5 @@ export function createMarker(
     alt: poi.name,
   });
   marker.on("click", () => onSelect(poi));
-  return { poi, marker };
+  return { poi, marker, route: routeLayer(poi, meta.color, onSelect) };
 }

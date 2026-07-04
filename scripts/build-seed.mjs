@@ -86,6 +86,7 @@ async function main() {
       photo,
       rating: typeof p.rating === "number" ? p.rating : null,
       info: p.info ?? null,
+      route: Array.isArray(p.route) ? p.route : null,
     };
   });
 
