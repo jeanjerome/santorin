@@ -1,11 +1,12 @@
 import { CATEGORIES } from "../data/categories";
 import type { Poi } from "../data/poi";
 
-// Horizontal scroll of category chips. Tapping a chip toggles its category;
-// when every category is active the bar behaves as "show all".
+// Horizontal scroll of category chips. Tapping a chip toggles its category.
+// On startup only beaches are shown; the user opts other categories in.
+const DEFAULT_ACTIVE = ["Plage"];
 
 export class FilterBar {
-  private readonly active = new Set<string>(CATEGORIES.map((c) => c.key));
+  private readonly active = new Set<string>(DEFAULT_ACTIVE);
   private readonly chips = new Map<string, HTMLButtonElement>();
 
   constructor(
@@ -28,7 +29,7 @@ export class FilterBar {
       chip.type = "button";
       chip.className = "chip";
       chip.style.setProperty("--chip-color", cat.color);
-      chip.setAttribute("aria-pressed", "true");
+      chip.setAttribute("aria-pressed", String(this.active.has(cat.key)));
       chip.innerHTML = `<span aria-hidden="true">${cat.glyph}</span> ${cat.label} <span class="chip__count">${count}</span>`;
       chip.addEventListener("click", () => this.toggle(cat.key));
 
