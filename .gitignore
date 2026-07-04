@@ -2,6 +2,7 @@ node_modules/
 dist/
 dist-ssr/
 *.local
+tmp/
 
 # Generated build artifacts
 public/data/pois.json

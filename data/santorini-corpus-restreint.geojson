@@ -300,10 +300,10 @@
           "tags": [
             "Sable/galets rouges",
             "Falaises volcaniques",
-            "Accès difficile",
+            "Accès risqué",
             "Sans équipements"
           ],
-          "tip": "Accès par un sentier rocheux glissant, risque de chutes de pierres. Bonnes chaussures, ne pas stationner sous les falaises."
+          "tip": "Spectaculaire mais dangereuse : chutes de pierres et glissements fréquents, sentier régulièrement fermé. Conseil : monter au point de vue depuis le parking, faire la photo, et se renseigner localement avant de descendre. La plupart des tours en bateau/kayak la longent."
         }
       },
       "geometry": {
@@ -463,9 +463,9 @@
             "Sable noir & galets",
             "Falaises lunaires",
             "Calme & isolée",
-            "Marina"
+            "Tavernes au port"
           ],
-          "tip": "Paysage lunaire spectaculaire, plage peu fréquentée. Eau vite profonde, peu de services."
+          "tip": "Paysage lunaire spectaculaire (« Moon Beach »), plage peu fréquentée s'étirant sur plus d'1 km. Eau vite profonde, peu de services sur le sable, mais bonnes tavernes de poisson au port voisin. Parking à côté ; bus rare (~toutes les 3 h)."
         }
       },
       "geometry": {
@@ -896,6 +896,5271 @@
         "coordinates": [
           25.43343,
           36.416546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fratzeskos Fish Tavern",
+        "category": "Restaurant",
+        "address": "Plage de Perissa, Santorin",
+        "gps": {
+          "lat": 36.356837,
+          "lon": 25.475731
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Taverne « Fratzeskos » (« Francesco's ») géolocalisée via OpenStreetMap.",
+        "pictogram": "restaurant",
+        "label": "Fratzeskos",
+        "info": {
+          "priceRange": "€€",
+          "tags": [
+            "Poisson & fruits de mer",
+            "Transats gratuits clients",
+            "Bord de plage"
+          ],
+          "tip": "Taverne de poisson au bout nord de la plage de sable noir de Perissa. Transats et parasols gratuits pour les clients avant/après le repas. Poulpe très réputé."
+        },
+        "rating": 4.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.475731,
+          36.356837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "To Steki Tou Psaara",
+        "category": "Restaurant",
+        "address": "Port de Vlychada, Santorin",
+        "gps": {
+          "lat": 36.3373,
+          "lon": 25.4357
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Position approximative (cluster de tavernes du port de pêche de Vlychada) — à affiner sur place.",
+        "pictogram": "restaurant",
+        "label": "To Steki (Vlychada)",
+        "info": {
+          "priceRange": "€",
+          "tags": [
+            "Poisson frais",
+            "Prix locaux",
+            "Port de pêche"
+          ],
+          "tip": "Taverne de poisson prisée des locaux, au port de Vlychada. Grande portion de fruits de mer ~12–15 €. Sur Google, chercher « Fisherman's House Vlychada » (homonyme à Akrotiri). Bus rare (~toutes les 3 h)."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4357,
+          36.3373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kritikos Tavern",
+        "category": "Restaurant",
+        "address": "Vothonas / Mesaria, Santorin",
+        "gps": {
+          "lat": 36.399397,
+          "lon": 25.451239
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Taverne « ΚΡΗΤΙΚΟΣ » (secteur Vothonas/Mesaria), près du Wine Museum — position à affiner.",
+        "pictogram": "restaurant",
+        "label": "Kritikos Tavern",
+        "info": {
+          "priceRange": "€€",
+          "tags": [
+            "Viande grillée",
+            "Steak 1 kg",
+            "Prix locaux"
+          ],
+          "tip": "Grill fréquenté des locaux entre Mesaria et l'aéroport (proche du Wine Museum). Énorme steak de porc ~1 kg à ~15 €. À accompagner de tzatziki, comme les Grecs."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.451239,
+          36.399397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kalikardia",
+        "category": "Restaurant",
+        "address": "Route du phare, Akrotiri, Santorin",
+        "gps": {
+          "lat": 36.364487,
+          "lon": 25.382369
+        },
+        "source": "https://thegoodheartsantorini.gr/",
+        "source_note": "« Καλή Καρδιά » / The Good Heart, route du phare d'Akrotiri (épingle Google Maps officielle).",
+        "pictogram": "restaurant",
+        "label": "Kalikardia",
+        "info": {
+          "priceRange": "€€",
+          "tags": [
+            "Familial",
+            "Cuisine santorinienne",
+            "Fromage chloró"
+          ],
+          "tip": "Taverne familiale sur la route du phare d'Akrotiri. Spécialités : porc au vinsanto, veau à l'aubergine blanche, fromage local chloró. Petite boutique de produits maison à côté."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.382369,
+          36.364487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ammoudi Fish Tavern",
+        "category": "Restaurant",
+        "address": "Baie d'Ammoudi, Oia, Santorin",
+        "gps": {
+          "lat": 36.460616,
+          "lon": 25.370229
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Nœud OpenStreetMap « Ammoudi Fish Tavern », baie d'Ammoudi.",
+        "pictogram": "restaurant",
+        "label": "Ammoudi Fish Tavern",
+        "info": {
+          "priceRange": "€€€",
+          "tags": [
+            "Poisson & fruits de mer",
+            "Baie d'Ammoudi",
+            "Les pieds dans l'eau"
+          ],
+          "tip": "Sur l'eau dans la baie d'Ammoudi, sous Oia. Très frais et traditionnel, mais vue coucher de soleil partiellement masquée. ~50–60 €/pers. Accès à pied (240 marches) ou navette gratuite ; route fermée aux voitures depuis 2026."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.370229,
+          36.460616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dimitris Ammoudi Taverna",
+        "category": "Restaurant",
+        "address": "Baie d'Ammoudi, Oia, Santorin",
+        "gps": {
+          "lat": 36.459817,
+          "lon": 25.371317
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Nœud OpenStreetMap « Δημήτρης Ταβέρνα στο Αμμούδι », côté opposé de la baie.",
+        "pictogram": "restaurant",
+        "label": "Dimitris (Ammoudi)",
+        "info": {
+          "priceRange": "€€€",
+          "tags": [
+            "Poisson & fruits de mer",
+            "Vue coucher de soleil",
+            "Les pieds dans l'eau"
+          ],
+          "tip": "Côté opposé de la baie d'Ammoudi, avec belle vue sur le coucher de soleil. Poisson/fruits de mer, ~50–60 €/pers. Propose souvent une navette gratuite pour la baie."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.371317,
+          36.459817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nick the Grill",
+        "category": "Street food",
+        "address": "Place principale de Fira, Santorin",
+        "gps": {
+          "lat": 36.4177269,
+          "lon": 25.4322801
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Nœud OpenStreetMap sur la place Theotokopoulou (place principale de Fira).",
+        "pictogram": "restaurant",
+        "label": "Nick the Grill",
+        "info": {
+          "priceRange": "€",
+          "tags": [
+            "Gyros",
+            "Gyros d'agneau (rare !)",
+            "Place de Fira"
+          ],
+          "tip": "Sur la place principale de Fira. Un des meilleurs souvlaki de l'île, seul à proposer le gyros d'agneau (en plus de porc/poulet). Affaire familiale (Mrs Teresa & Anna)."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4322801,
+          36.4177269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lucky's Souvlakis",
+        "category": "Street food",
+        "address": "Fira, Santorin",
+        "gps": {
+          "lat": 36.4172697,
+          "lon": 25.4324179
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Nœud OpenStreetMap, juste au sud de la place principale de Fira.",
+        "pictogram": "restaurant",
+        "label": "Lucky's",
+        "info": {
+          "priceRange": "€",
+          "tags": [
+            "Souvlaki",
+            "Gyros",
+            "Place de Fira"
+          ],
+          "tip": "Institution du souvlaki à Fira, juste au sud de la place principale. Rapide et bon marché (~4–7 €)."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4324179,
+          36.4172697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Svoronos Bakery",
+        "category": "Street food",
+        "address": "Fira (à côté du McDonald's), Santorin",
+        "gps": {
+          "lat": 36.4190601,
+          "lon": 25.4321475
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Nœud OpenStreetMap « Φούρνος Σβορώνος », rue 25is Martiou, Fira.",
+        "pictogram": "shopping-cart",
+        "label": "Svoronos",
+        "info": {
+          "priceRange": "€",
+          "tags": [
+            "Boulangerie",
+            "Produits frais maison",
+            "Spanakopita"
+          ],
+          "tip": "Une des rares boulangeries de Fira à tout préparer frais sur place (pas de surgelé industriel). À côté du McDonald's. Tourtes salées ~2 €."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4321475,
+          36.4190601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Irini Bakery",
+        "category": "Street food",
+        "address": "Perissa, Santorin",
+        "gps": {
+          "lat": 36.3531059,
+          "lon": 25.4649104
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Nœud OpenStreetMap « Santa Irini Bakery Shop », route de Perissa.",
+        "pictogram": "shopping-cart",
+        "label": "Santa Irini",
+        "info": {
+          "priceRange": "€",
+          "tags": [
+            "Boulangerie",
+            "Produits frais maison"
+          ],
+          "tip": "Boulangerie de Perissa réputée pour ses produits frais faits maison. Idéale pour un pique-nique plage."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4649104,
+          36.3531059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Family",
+        "category": "Street food",
+        "address": "Place principale de Fira, Santorin",
+        "gps": {
+          "lat": 36.4184666,
+          "lon": 25.4324633
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Nœud OpenStreetMap « The Family Pizzeria », rue 25is Martiou, Fira.",
+        "pictogram": "restaurant",
+        "label": "The Family",
+        "info": {
+          "priceRange": "€",
+          "tags": [
+            "Pizza & pâtes",
+            "À emporter",
+            "Place de Fira"
+          ],
+          "tip": "Pizza/pâtes en version street food sur la place de Fira. Part de pizza ~3 €."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4324633,
+          36.4184666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Falafeland",
+        "category": "Street food",
+        "address": "Fira, Santorin",
+        "gps": {
+          "lat": 36.4181091,
+          "lon": 25.4336318
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Nœud OpenStreetMap « FalafeLAND », rue Agiou Athanasiou, Fira.",
+        "pictogram": "restaurant",
+        "label": "Falafeland",
+        "info": {
+          "priceRange": "€",
+          "tags": [
+            "Falafel",
+            "Végétarien & vegan"
+          ],
+          "tip": "Falafels à Fira, bonne option végétarienne/vegan. ~7 €."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4336318,
+          36.4181091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crème de la Crêpe",
+        "category": "Street food",
+        "address": "Place principale de Fira, Santorin",
+        "gps": {
+          "lat": 36.4188978,
+          "lon": 25.431601
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Nœud OpenStreetMap « Creme de la Crepe », rue Erythrou Stavrou, Fira.",
+        "pictogram": "restaurant",
+        "label": "Crème de la Crêpe",
+        "info": {
+          "priceRange": "€",
+          "tags": [
+            "Crêpes sucrées & salées"
+          ],
+          "tip": "Crêperie près de la place principale de Fira. Sucré ou salé, ~7 €."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.431601,
+          36.4188978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pyrgos",
+        "category": "Village",
+        "address": "Pyrgos Kallistis, Santorin",
+        "gps": {
+          "lat": 36.3826042,
+          "lon": 25.4501541
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Centre du village (nœud OpenStreetMap Πύργος Καλλίστης).",
+        "pictogram": "marker",
+        "label": "Pyrgos",
+        "info": {
+          "tags": [
+            "Village perché",
+            "Vue à 360°",
+            "Ruelles labyrinthiques"
+          ],
+          "tip": "Ancienne capitale perchée, très agréable en fin d'après-midi. Vue panoramique depuis le sommet (Kasteli). Moins couru qu'Oia."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4501541,
+          36.3826042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Megalochori",
+        "category": "Village",
+        "address": "Megalochori, Santorin",
+        "gps": {
+          "lat": 36.3763939,
+          "lon": 25.4317299
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Centre du village (nœud OpenStreetMap Μεγαλοχώρι).",
+        "pictogram": "marker",
+        "label": "Megalochori",
+        "info": {
+          "tags": [
+            "Village traditionnel",
+            "Domaines viticoles",
+            "Calme"
+          ],
+          "tip": "Joli village pour flâner, entouré de domaines viticoles. Ambiance authentique, loin des foules."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4317299,
+          36.3763939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Emporio",
+        "category": "Village",
+        "address": "Emporeio, Santorin",
+        "gps": {
+          "lat": 36.3571658,
+          "lon": 25.4461188
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Centre du village (nœud OpenStreetMap Εμπορείο).",
+        "pictogram": "marker",
+        "label": "Emporio",
+        "info": {
+          "tags": [
+            "Plus grand village",
+            "Kasteli médiéval",
+            "Ruelles labyrinthiques"
+          ],
+          "tip": "Le plus grand village de l'île, avec un dédale médiéval (Kasteli) plus authentique et moins « vitrine Instagram » qu'Oia."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4461188,
+          36.3571658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oia",
+        "category": "Village",
+        "address": "Oia (Ia), Santorin",
+        "gps": {
+          "lat": 36.4622122,
+          "lon": 25.3757257
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Centre du village (nœud OpenStreetMap Οία).",
+        "pictogram": "marker",
+        "label": "Oia",
+        "info": {
+          "tags": [
+            "Coucher de soleil iconique",
+            "Maisons cycladiques",
+            "Très fréquenté"
+          ],
+          "tip": "Le village carte postale de Santorin. Splendide mais bondé au coucher du soleil. Parkings ajoutés à l'entrée (~5 €/h) ; route vers Ammoudi interdite aux voitures."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3757257,
+          36.4622122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Imerovigli",
+        "category": "Village",
+        "address": "Imerovigli, Santorin",
+        "gps": {
+          "lat": 36.4325579,
+          "lon": 25.4228307
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Centre du village (nœud OpenStreetMap Ημεροβίγλι).",
+        "pictogram": "marker",
+        "label": "Imerovigli",
+        "info": {
+          "tags": [
+            "Balcon de la caldeira",
+            "Vues spectaculaires",
+            "Plus calme qu'Oia"
+          ],
+          "tip": "« Balcon de la caldeira » : vues aussi spectaculaires qu'Oia mais plus respirable. Point de départ vers Skaros Rock. Superbe coucher de soleil."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4228307,
+          36.4325579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Firostefani",
+        "category": "Village",
+        "address": "Firostefani, Santorin",
+        "gps": {
+          "lat": 36.4273958,
+          "lon": 25.4282809
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Centre du village (nœud OpenStreetMap Φηροστεφάνι).",
+        "pictogram": "marker",
+        "label": "Firostefani",
+        "info": {
+          "tags": [
+            "Bord de caldeira",
+            "À 10 min de Fira",
+            "Terrasses avec vue"
+          ],
+          "tip": "Village paisible sur la caldeira, à 10 min à pied de Fira. Belles terrasses avec vue, moins de monde."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4282809,
+          36.4273958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rando Fira → Oia (caldeira)",
+        "category": "Randonnée",
+        "address": "Départ à Firostefani, Santorin",
+        "gps": {
+          "lat": 36.4183,
+          "lon": 25.432345
+        },
+        "source": "https://www.openstreetmap.org/relation/15877154",
+        "source_note": "Extrémité sud (côté Fira/Firostefani) du sentier OpenStreetMap « Santorini Trail 09 – The Ledge of the Caldera ».",
+        "pictogram": "marker",
+        "label": "Départ Fira→Oia",
+        "info": {
+          "tags": [
+            "~10 km",
+            "Vues continues sur la caldeira",
+            "Peu d'ombre"
+          ],
+          "tip": "LA randonnée de Santorin, par Firostefani et Imerovigli. À faire tôt le matin dans le sens Fira→Oia, retour en bus/taxi. Chaussures correctes, eau, chapeau. ~3–4 h."
+        },
+        "route": [
+          [
+            36.4183,
+            25.432345
+          ],
+          [
+            36.418269,
+            25.432286
+          ],
+          [
+            36.418276,
+            25.432012
+          ],
+          [
+            36.418265,
+            25.431891
+          ],
+          [
+            36.418263,
+            25.431808
+          ],
+          [
+            36.418258,
+            25.43163
+          ],
+          [
+            36.418243,
+            25.431509
+          ],
+          [
+            36.418243,
+            25.431481
+          ],
+          [
+            36.418297,
+            25.431479
+          ],
+          [
+            36.418647,
+            25.431415
+          ],
+          [
+            36.418659,
+            25.431462
+          ],
+          [
+            36.418772,
+            25.431418
+          ],
+          [
+            36.418759,
+            25.431367
+          ],
+          [
+            36.418752,
+            25.43133
+          ],
+          [
+            36.419032,
+            25.431318
+          ],
+          [
+            36.419139,
+            25.431257
+          ],
+          [
+            36.419337,
+            25.431219
+          ],
+          [
+            36.419492,
+            25.43119
+          ],
+          [
+            36.419748,
+            25.431095
+          ],
+          [
+            36.42014,
+            25.430908
+          ],
+          [
+            36.420128,
+            25.430834
+          ],
+          [
+            36.420115,
+            25.430751
+          ],
+          [
+            36.420116,
+            25.430605
+          ],
+          [
+            36.420114,
+            25.430557
+          ],
+          [
+            36.4201,
+            25.430467
+          ],
+          [
+            36.420137,
+            25.430318
+          ],
+          [
+            36.420171,
+            25.430308
+          ],
+          [
+            36.420298,
+            25.430342
+          ],
+          [
+            36.420374,
+            25.430248
+          ],
+          [
+            36.420446,
+            25.430221
+          ],
+          [
+            36.420483,
+            25.430135
+          ],
+          [
+            36.420651,
+            25.429904
+          ],
+          [
+            36.420747,
+            25.42979
+          ],
+          [
+            36.42096,
+            25.429621
+          ],
+          [
+            36.421123,
+            25.429494
+          ],
+          [
+            36.421178,
+            25.429475
+          ],
+          [
+            36.421307,
+            25.429385
+          ],
+          [
+            36.421458,
+            25.42925
+          ],
+          [
+            36.42147,
+            25.429225
+          ],
+          [
+            36.421495,
+            25.429203
+          ],
+          [
+            36.42148,
+            25.429072
+          ],
+          [
+            36.42151,
+            25.429053
+          ],
+          [
+            36.421487,
+            25.428896
+          ],
+          [
+            36.42152,
+            25.428729
+          ],
+          [
+            36.421476,
+            25.428656
+          ],
+          [
+            36.421681,
+            25.42837
+          ],
+          [
+            36.421777,
+            25.428313
+          ],
+          [
+            36.421898,
+            25.428318
+          ],
+          [
+            36.421984,
+            25.428306
+          ],
+          [
+            36.422069,
+            25.428297
+          ],
+          [
+            36.422288,
+            25.42832
+          ],
+          [
+            36.422356,
+            25.42836
+          ],
+          [
+            36.422393,
+            25.428376
+          ],
+          [
+            36.422451,
+            25.428363
+          ],
+          [
+            36.422573,
+            25.428333
+          ],
+          [
+            36.422684,
+            25.428261
+          ],
+          [
+            36.422751,
+            25.428265
+          ],
+          [
+            36.422867,
+            25.428282
+          ],
+          [
+            36.422897,
+            25.428277
+          ],
+          [
+            36.422953,
+            25.428253
+          ],
+          [
+            36.423048,
+            25.428225
+          ],
+          [
+            36.423224,
+            25.428194
+          ],
+          [
+            36.42341,
+            25.428216
+          ],
+          [
+            36.423652,
+            25.428192
+          ],
+          [
+            36.423778,
+            25.428185
+          ],
+          [
+            36.423848,
+            25.428193
+          ],
+          [
+            36.42388,
+            25.428215
+          ],
+          [
+            36.423929,
+            25.428269
+          ],
+          [
+            36.423955,
+            25.428293
+          ],
+          [
+            36.4241,
+            25.428411
+          ],
+          [
+            36.424259,
+            25.428512
+          ],
+          [
+            36.424597,
+            25.42854
+          ],
+          [
+            36.424753,
+            25.428588
+          ],
+          [
+            36.424926,
+            25.428681
+          ],
+          [
+            36.425091,
+            25.428757
+          ],
+          [
+            36.42513,
+            25.428813
+          ],
+          [
+            36.425153,
+            25.428804
+          ],
+          [
+            36.425235,
+            25.428786
+          ],
+          [
+            36.425278,
+            25.428781
+          ],
+          [
+            36.425548,
+            25.428748
+          ],
+          [
+            36.425859,
+            25.428751
+          ],
+          [
+            36.426082,
+            25.428757
+          ],
+          [
+            36.426221,
+            25.428773
+          ],
+          [
+            36.426308,
+            25.4288
+          ],
+          [
+            36.426394,
+            25.428826
+          ],
+          [
+            36.426451,
+            25.428832
+          ],
+          [
+            36.42651,
+            25.428839
+          ],
+          [
+            36.426893,
+            25.428752
+          ],
+          [
+            36.426999,
+            25.428722
+          ],
+          [
+            36.427284,
+            25.428489
+          ],
+          [
+            36.427483,
+            25.428307
+          ],
+          [
+            36.427601,
+            25.428198
+          ],
+          [
+            36.427645,
+            25.428101
+          ],
+          [
+            36.427708,
+            25.427963
+          ],
+          [
+            36.428191,
+            25.427576
+          ],
+          [
+            36.428607,
+            25.427279
+          ],
+          [
+            36.428631,
+            25.427242
+          ],
+          [
+            36.429026,
+            25.426573
+          ],
+          [
+            36.429124,
+            25.42646
+          ],
+          [
+            36.429258,
+            25.426361
+          ],
+          [
+            36.429375,
+            25.426347
+          ],
+          [
+            36.429474,
+            25.426415
+          ],
+          [
+            36.429529,
+            25.426438
+          ],
+          [
+            36.429687,
+            25.426372
+          ],
+          [
+            36.429827,
+            25.426298
+          ],
+          [
+            36.430117,
+            25.426135
+          ],
+          [
+            36.430378,
+            25.425986
+          ],
+          [
+            36.430631,
+            25.425703
+          ],
+          [
+            36.430722,
+            25.425579
+          ],
+          [
+            36.430883,
+            25.425387
+          ],
+          [
+            36.431016,
+            25.425269
+          ],
+          [
+            36.431086,
+            25.425204
+          ],
+          [
+            36.43119,
+            25.425093
+          ],
+          [
+            36.431281,
+            25.424982
+          ],
+          [
+            36.431351,
+            25.424866
+          ],
+          [
+            36.431453,
+            25.424695
+          ],
+          [
+            36.431527,
+            25.424592
+          ],
+          [
+            36.431698,
+            25.424347
+          ],
+          [
+            36.431829,
+            25.424108
+          ],
+          [
+            36.431967,
+            25.423934
+          ],
+          [
+            36.431994,
+            25.42387
+          ],
+          [
+            36.431993,
+            25.423803
+          ],
+          [
+            36.431991,
+            25.423648
+          ],
+          [
+            36.431928,
+            25.423474
+          ],
+          [
+            36.431882,
+            25.423395
+          ],
+          [
+            36.431843,
+            25.423285
+          ],
+          [
+            36.43185,
+            25.423032
+          ],
+          [
+            36.431883,
+            25.422931
+          ],
+          [
+            36.431901,
+            25.422855
+          ],
+          [
+            36.431902,
+            25.422811
+          ],
+          [
+            36.431934,
+            25.42264
+          ],
+          [
+            36.431931,
+            25.422441
+          ],
+          [
+            36.431903,
+            25.422327
+          ],
+          [
+            36.431878,
+            25.422253
+          ],
+          [
+            36.431899,
+            25.422204
+          ],
+          [
+            36.431952,
+            25.422144
+          ],
+          [
+            36.432067,
+            25.42205
+          ],
+          [
+            36.432156,
+            25.421942
+          ],
+          [
+            36.432185,
+            25.421875
+          ],
+          [
+            36.432217,
+            25.421822
+          ],
+          [
+            36.432219,
+            25.421758
+          ],
+          [
+            36.432259,
+            25.42168
+          ],
+          [
+            36.432422,
+            25.421587
+          ],
+          [
+            36.432589,
+            25.421518
+          ],
+          [
+            36.432893,
+            25.421356
+          ],
+          [
+            36.432967,
+            25.421357
+          ],
+          [
+            36.433102,
+            25.421361
+          ],
+          [
+            36.433304,
+            25.421295
+          ],
+          [
+            36.433402,
+            25.421259
+          ],
+          [
+            36.433616,
+            25.421243
+          ],
+          [
+            36.433697,
+            25.421184
+          ],
+          [
+            36.433777,
+            25.421082
+          ],
+          [
+            36.433868,
+            25.421008
+          ],
+          [
+            36.434159,
+            25.420928
+          ],
+          [
+            36.434344,
+            25.420966
+          ],
+          [
+            36.434567,
+            25.421236
+          ],
+          [
+            36.434579,
+            25.421251
+          ],
+          [
+            36.434791,
+            25.42124
+          ],
+          [
+            36.434991,
+            25.421287
+          ],
+          [
+            36.435263,
+            25.421353
+          ],
+          [
+            36.435336,
+            25.421395
+          ],
+          [
+            36.43542,
+            25.421475
+          ],
+          [
+            36.435511,
+            25.421613
+          ],
+          [
+            36.435649,
+            25.421754
+          ],
+          [
+            36.435811,
+            25.42176
+          ],
+          [
+            36.435987,
+            25.421721
+          ],
+          [
+            36.436142,
+            25.421742
+          ],
+          [
+            36.436409,
+            25.421875
+          ],
+          [
+            36.436808,
+            25.421933
+          ],
+          [
+            36.436923,
+            25.422073
+          ],
+          [
+            36.437002,
+            25.422236
+          ],
+          [
+            36.437088,
+            25.422435
+          ],
+          [
+            36.4371,
+            25.422565
+          ],
+          [
+            36.437185,
+            25.422624
+          ],
+          [
+            36.437227,
+            25.422651
+          ],
+          [
+            36.437302,
+            25.422679
+          ],
+          [
+            36.437493,
+            25.422684
+          ],
+          [
+            36.437634,
+            25.422679
+          ],
+          [
+            36.437782,
+            25.422706
+          ],
+          [
+            36.437912,
+            25.422772
+          ],
+          [
+            36.438144,
+            25.422967
+          ],
+          [
+            36.438169,
+            25.422988
+          ],
+          [
+            36.438343,
+            25.423138
+          ],
+          [
+            36.438538,
+            25.423319
+          ],
+          [
+            36.438547,
+            25.423328
+          ],
+          [
+            36.438615,
+            25.423378
+          ],
+          [
+            36.438815,
+            25.423665
+          ],
+          [
+            36.438874,
+            25.423742
+          ],
+          [
+            36.43895,
+            25.423811
+          ],
+          [
+            36.439062,
+            25.423874
+          ],
+          [
+            36.439268,
+            25.423985
+          ],
+          [
+            36.439374,
+            25.424063
+          ],
+          [
+            36.439453,
+            25.424127
+          ],
+          [
+            36.439532,
+            25.424214
+          ],
+          [
+            36.439624,
+            25.42434
+          ],
+          [
+            36.439773,
+            25.424502
+          ],
+          [
+            36.439895,
+            25.424634
+          ],
+          [
+            36.439974,
+            25.424722
+          ],
+          [
+            36.440042,
+            25.424778
+          ],
+          [
+            36.440108,
+            25.42482
+          ],
+          [
+            36.440195,
+            25.424858
+          ],
+          [
+            36.440322,
+            25.424903
+          ],
+          [
+            36.440395,
+            25.424922
+          ],
+          [
+            36.440473,
+            25.424956
+          ],
+          [
+            36.440527,
+            25.424979
+          ],
+          [
+            36.440699,
+            25.425042
+          ],
+          [
+            36.440791,
+            25.425084
+          ],
+          [
+            36.440857,
+            25.425121
+          ],
+          [
+            36.440919,
+            25.425144
+          ],
+          [
+            36.441008,
+            25.425162
+          ],
+          [
+            36.44112,
+            25.42518
+          ],
+          [
+            36.441267,
+            25.4252
+          ],
+          [
+            36.441447,
+            25.425242
+          ],
+          [
+            36.441474,
+            25.425251
+          ],
+          [
+            36.441593,
+            25.42529
+          ],
+          [
+            36.441699,
+            25.425333
+          ],
+          [
+            36.441778,
+            25.42537
+          ],
+          [
+            36.441943,
+            25.425455
+          ],
+          [
+            36.44211,
+            25.425529
+          ],
+          [
+            36.442226,
+            25.425622
+          ],
+          [
+            36.442329,
+            25.425687
+          ],
+          [
+            36.442447,
+            25.425726
+          ],
+          [
+            36.442549,
+            25.425742
+          ],
+          [
+            36.442658,
+            25.425744
+          ],
+          [
+            36.442798,
+            25.425729
+          ],
+          [
+            36.443098,
+            25.425681
+          ],
+          [
+            36.443324,
+            25.425725
+          ],
+          [
+            36.443634,
+            25.425735
+          ],
+          [
+            36.443816,
+            25.425734
+          ],
+          [
+            36.443895,
+            25.425749
+          ],
+          [
+            36.444014,
+            25.425799
+          ],
+          [
+            36.444169,
+            25.425898
+          ],
+          [
+            36.444329,
+            25.425984
+          ],
+          [
+            36.444497,
+            25.426067
+          ],
+          [
+            36.444942,
+            25.426216
+          ],
+          [
+            36.445066,
+            25.426267
+          ],
+          [
+            36.445166,
+            25.426342
+          ],
+          [
+            36.445234,
+            25.426351
+          ],
+          [
+            36.445374,
+            25.426346
+          ],
+          [
+            36.445535,
+            25.42633
+          ],
+          [
+            36.4457,
+            25.426338
+          ],
+          [
+            36.445947,
+            25.426356
+          ],
+          [
+            36.446007,
+            25.426349
+          ],
+          [
+            36.446112,
+            25.426339
+          ],
+          [
+            36.446214,
+            25.426323
+          ],
+          [
+            36.446285,
+            25.42631
+          ],
+          [
+            36.446341,
+            25.426291
+          ],
+          [
+            36.446387,
+            25.426275
+          ],
+          [
+            36.446435,
+            25.426247
+          ],
+          [
+            36.446523,
+            25.426172
+          ],
+          [
+            36.446617,
+            25.426069
+          ],
+          [
+            36.446662,
+            25.426006
+          ],
+          [
+            36.446744,
+            25.425872
+          ],
+          [
+            36.446799,
+            25.425784
+          ],
+          [
+            36.446838,
+            25.425743
+          ],
+          [
+            36.446894,
+            25.4257
+          ],
+          [
+            36.446958,
+            25.425667
+          ],
+          [
+            36.447218,
+            25.425539
+          ],
+          [
+            36.447268,
+            25.425504
+          ],
+          [
+            36.447319,
+            25.425456
+          ],
+          [
+            36.447353,
+            25.425414
+          ],
+          [
+            36.447379,
+            25.425377
+          ],
+          [
+            36.447468,
+            25.425233
+          ],
+          [
+            36.447522,
+            25.425144
+          ],
+          [
+            36.447548,
+            25.425108
+          ],
+          [
+            36.447588,
+            25.425065
+          ],
+          [
+            36.447625,
+            25.425034
+          ],
+          [
+            36.447741,
+            25.42495
+          ],
+          [
+            36.447824,
+            25.424901
+          ],
+          [
+            36.447915,
+            25.424829
+          ],
+          [
+            36.447978,
+            25.424772
+          ],
+          [
+            36.448018,
+            25.424747
+          ],
+          [
+            36.448065,
+            25.424726
+          ],
+          [
+            36.448123,
+            25.424711
+          ],
+          [
+            36.448177,
+            25.424707
+          ],
+          [
+            36.448222,
+            25.424711
+          ],
+          [
+            36.448291,
+            25.424697
+          ],
+          [
+            36.448343,
+            25.424686
+          ],
+          [
+            36.448595,
+            25.424579
+          ],
+          [
+            36.448799,
+            25.424508
+          ],
+          [
+            36.448916,
+            25.424477
+          ],
+          [
+            36.449022,
+            25.42445
+          ],
+          [
+            36.449094,
+            25.424442
+          ],
+          [
+            36.449157,
+            25.424439
+          ],
+          [
+            36.449257,
+            25.424444
+          ],
+          [
+            36.449313,
+            25.424442
+          ],
+          [
+            36.449371,
+            25.424438
+          ],
+          [
+            36.449602,
+            25.424401
+          ],
+          [
+            36.449827,
+            25.424416
+          ],
+          [
+            36.449925,
+            25.424423
+          ],
+          [
+            36.449989,
+            25.424428
+          ],
+          [
+            36.450052,
+            25.424432
+          ],
+          [
+            36.450133,
+            25.424439
+          ],
+          [
+            36.450308,
+            25.424453
+          ],
+          [
+            36.450405,
+            25.424457
+          ],
+          [
+            36.450476,
+            25.424447
+          ],
+          [
+            36.450559,
+            25.424435
+          ],
+          [
+            36.450985,
+            25.424235
+          ],
+          [
+            36.451136,
+            25.424155
+          ],
+          [
+            36.451219,
+            25.424119
+          ],
+          [
+            36.451268,
+            25.424108
+          ],
+          [
+            36.451338,
+            25.424108
+          ],
+          [
+            36.451413,
+            25.424119
+          ],
+          [
+            36.451542,
+            25.424207
+          ],
+          [
+            36.451563,
+            25.424209
+          ],
+          [
+            36.451682,
+            25.424217
+          ],
+          [
+            36.451733,
+            25.42421
+          ],
+          [
+            36.451834,
+            25.424225
+          ],
+          [
+            36.451967,
+            25.424267
+          ],
+          [
+            36.452072,
+            25.424334
+          ],
+          [
+            36.452083,
+            25.424341
+          ],
+          [
+            36.452204,
+            25.424396
+          ],
+          [
+            36.452313,
+            25.424414
+          ],
+          [
+            36.452391,
+            25.42441
+          ],
+          [
+            36.452469,
+            25.424392
+          ],
+          [
+            36.452601,
+            25.424348
+          ],
+          [
+            36.452803,
+            25.424241
+          ],
+          [
+            36.452898,
+            25.424187
+          ],
+          [
+            36.452996,
+            25.424094
+          ],
+          [
+            36.453102,
+            25.423964
+          ],
+          [
+            36.453196,
+            25.423803
+          ],
+          [
+            36.453358,
+            25.423565
+          ],
+          [
+            36.453377,
+            25.423511
+          ],
+          [
+            36.45338,
+            25.423364
+          ],
+          [
+            36.453705,
+            25.423203
+          ],
+          [
+            36.453881,
+            25.423099
+          ],
+          [
+            36.453979,
+            25.422789
+          ],
+          [
+            36.454701,
+            25.422133
+          ],
+          [
+            36.45492,
+            25.421863
+          ],
+          [
+            36.455072,
+            25.421624
+          ],
+          [
+            36.455126,
+            25.421559
+          ],
+          [
+            36.455134,
+            25.421556
+          ],
+          [
+            36.455546,
+            25.421386
+          ],
+          [
+            36.455762,
+            25.421192
+          ],
+          [
+            36.455856,
+            25.421152
+          ],
+          [
+            36.455978,
+            25.421036
+          ],
+          [
+            36.45614,
+            25.420883
+          ],
+          [
+            36.456283,
+            25.420821
+          ],
+          [
+            36.456341,
+            25.420831
+          ],
+          [
+            36.456347,
+            25.420842
+          ],
+          [
+            36.456359,
+            25.420865
+          ],
+          [
+            36.456407,
+            25.420866
+          ],
+          [
+            36.456601,
+            25.420751
+          ],
+          [
+            36.456651,
+            25.420695
+          ],
+          [
+            36.456737,
+            25.420645
+          ],
+          [
+            36.456834,
+            25.420611
+          ],
+          [
+            36.456874,
+            25.420596
+          ],
+          [
+            36.456908,
+            25.420604
+          ],
+          [
+            36.456934,
+            25.420618
+          ],
+          [
+            36.456997,
+            25.420691
+          ],
+          [
+            36.457029,
+            25.420718
+          ],
+          [
+            36.457049,
+            25.420731
+          ],
+          [
+            36.457063,
+            25.420737
+          ],
+          [
+            36.457084,
+            25.420734
+          ],
+          [
+            36.4571,
+            25.420724
+          ],
+          [
+            36.457106,
+            25.420711
+          ],
+          [
+            36.457113,
+            25.42067
+          ],
+          [
+            36.457108,
+            25.420544
+          ],
+          [
+            36.457096,
+            25.42042
+          ],
+          [
+            36.457081,
+            25.420203
+          ],
+          [
+            36.457059,
+            25.419902
+          ],
+          [
+            36.457047,
+            25.41973
+          ],
+          [
+            36.457051,
+            25.41969
+          ],
+          [
+            36.457068,
+            25.419666
+          ],
+          [
+            36.457094,
+            25.419647
+          ],
+          [
+            36.457147,
+            25.419628
+          ],
+          [
+            36.457192,
+            25.419621
+          ],
+          [
+            36.457265,
+            25.419631
+          ],
+          [
+            36.457279,
+            25.419558
+          ],
+          [
+            36.457307,
+            25.419476
+          ],
+          [
+            36.457343,
+            25.419404
+          ],
+          [
+            36.457384,
+            25.419343
+          ],
+          [
+            36.457423,
+            25.419297
+          ],
+          [
+            36.457471,
+            25.419261
+          ],
+          [
+            36.457519,
+            25.419223
+          ],
+          [
+            36.457629,
+            25.419163
+          ],
+          [
+            36.45776,
+            25.419119
+          ],
+          [
+            36.457839,
+            25.419075
+          ],
+          [
+            36.457923,
+            25.419007
+          ],
+          [
+            36.457992,
+            25.418938
+          ],
+          [
+            36.458117,
+            25.418777
+          ],
+          [
+            36.458207,
+            25.418657
+          ],
+          [
+            36.458294,
+            25.418546
+          ],
+          [
+            36.458433,
+            25.418399
+          ],
+          [
+            36.458601,
+            25.418259
+          ],
+          [
+            36.458712,
+            25.418169
+          ],
+          [
+            36.458813,
+            25.41807
+          ],
+          [
+            36.458964,
+            25.417899
+          ],
+          [
+            36.459089,
+            25.417754
+          ],
+          [
+            36.459185,
+            25.417655
+          ],
+          [
+            36.459381,
+            25.41745
+          ],
+          [
+            36.459532,
+            25.417294
+          ],
+          [
+            36.45967,
+            25.417182
+          ],
+          [
+            36.45975,
+            25.417116
+          ],
+          [
+            36.459803,
+            25.417078
+          ],
+          [
+            36.459861,
+            25.417047
+          ],
+          [
+            36.459901,
+            25.417028
+          ],
+          [
+            36.460058,
+            25.416988
+          ],
+          [
+            36.460113,
+            25.416974
+          ],
+          [
+            36.460219,
+            25.416937
+          ],
+          [
+            36.460302,
+            25.416893
+          ],
+          [
+            36.460289,
+            25.416857
+          ],
+          [
+            36.460271,
+            25.416705
+          ],
+          [
+            36.460453,
+            25.416546
+          ],
+          [
+            36.461125,
+            25.415705
+          ],
+          [
+            36.461306,
+            25.415491
+          ],
+          [
+            36.461389,
+            25.41529
+          ],
+          [
+            36.461903,
+            25.41461
+          ],
+          [
+            36.462234,
+            25.414214
+          ],
+          [
+            36.462572,
+            25.413948
+          ],
+          [
+            36.462674,
+            25.41379
+          ],
+          [
+            36.46276,
+            25.413672
+          ],
+          [
+            36.462851,
+            25.413537
+          ],
+          [
+            36.462905,
+            25.4134
+          ],
+          [
+            36.462918,
+            25.413166
+          ],
+          [
+            36.462947,
+            25.413031
+          ],
+          [
+            36.462967,
+            25.412912
+          ],
+          [
+            36.463004,
+            25.412792
+          ],
+          [
+            36.46301,
+            25.412729
+          ],
+          [
+            36.463056,
+            25.412267
+          ],
+          [
+            36.463074,
+            25.411912
+          ],
+          [
+            36.463106,
+            25.411663
+          ],
+          [
+            36.463177,
+            25.411422
+          ],
+          [
+            36.46335,
+            25.410959
+          ],
+          [
+            36.463527,
+            25.410589
+          ],
+          [
+            36.463613,
+            25.410253
+          ],
+          [
+            36.463661,
+            25.409949
+          ],
+          [
+            36.463665,
+            25.409684
+          ],
+          [
+            36.463547,
+            25.4094
+          ],
+          [
+            36.463433,
+            25.409028
+          ],
+          [
+            36.463448,
+            25.408943
+          ],
+          [
+            36.463562,
+            25.408306
+          ],
+          [
+            36.463543,
+            25.408293
+          ],
+          [
+            36.463443,
+            25.40822
+          ],
+          [
+            36.463301,
+            25.408151
+          ],
+          [
+            36.463206,
+            25.408132
+          ],
+          [
+            36.463015,
+            25.407941
+          ],
+          [
+            36.462866,
+            25.407679
+          ],
+          [
+            36.462802,
+            25.407516
+          ],
+          [
+            36.462574,
+            25.407138
+          ],
+          [
+            36.462516,
+            25.406978
+          ],
+          [
+            36.462482,
+            25.406851
+          ],
+          [
+            36.462469,
+            25.406645
+          ],
+          [
+            36.462471,
+            25.406256
+          ],
+          [
+            36.462521,
+            25.405898
+          ],
+          [
+            36.462439,
+            25.405447
+          ],
+          [
+            36.462425,
+            25.405045
+          ],
+          [
+            36.462381,
+            25.404754
+          ],
+          [
+            36.462404,
+            25.404326
+          ],
+          [
+            36.462374,
+            25.404161
+          ],
+          [
+            36.462317,
+            25.403939
+          ],
+          [
+            36.46234,
+            25.403775
+          ],
+          [
+            36.462381,
+            25.403724
+          ],
+          [
+            36.462401,
+            25.403668
+          ],
+          [
+            36.462423,
+            25.403604
+          ],
+          [
+            36.46225,
+            25.403102
+          ],
+          [
+            36.462028,
+            25.402695
+          ],
+          [
+            36.461996,
+            25.402571
+          ],
+          [
+            36.461991,
+            25.402551
+          ],
+          [
+            36.461998,
+            25.402439
+          ],
+          [
+            36.462001,
+            25.402388
+          ],
+          [
+            36.462019,
+            25.402174
+          ],
+          [
+            36.461979,
+            25.402044
+          ],
+          [
+            36.461885,
+            25.401977
+          ],
+          [
+            36.461853,
+            25.401921
+          ],
+          [
+            36.461817,
+            25.401858
+          ],
+          [
+            36.461813,
+            25.401727
+          ],
+          [
+            36.461762,
+            25.401479
+          ],
+          [
+            36.461787,
+            25.40129
+          ],
+          [
+            36.461781,
+            25.400938
+          ],
+          [
+            36.461671,
+            25.400643
+          ],
+          [
+            36.461608,
+            25.400543
+          ],
+          [
+            36.461438,
+            25.400278
+          ],
+          [
+            36.461263,
+            25.400072
+          ],
+          [
+            36.461071,
+            25.399959
+          ],
+          [
+            36.461005,
+            25.399712
+          ],
+          [
+            36.460917,
+            25.399572
+          ],
+          [
+            36.460904,
+            25.399551
+          ],
+          [
+            36.460808,
+            25.399472
+          ],
+          [
+            36.460794,
+            25.399461
+          ],
+          [
+            36.460789,
+            25.399399
+          ],
+          [
+            36.46074,
+            25.399014
+          ],
+          [
+            36.460696,
+            25.398512
+          ],
+          [
+            36.460556,
+            25.398264
+          ],
+          [
+            36.460377,
+            25.398049
+          ],
+          [
+            36.460323,
+            25.397861
+          ],
+          [
+            36.460261,
+            25.397502
+          ],
+          [
+            36.460244,
+            25.397293
+          ],
+          [
+            36.460209,
+            25.397142
+          ],
+          [
+            36.460216,
+            25.397014
+          ],
+          [
+            36.460249,
+            25.396928
+          ],
+          [
+            36.460273,
+            25.396756
+          ],
+          [
+            36.460289,
+            25.396374
+          ],
+          [
+            36.460383,
+            25.395856
+          ],
+          [
+            36.460417,
+            25.395647
+          ],
+          [
+            36.460447,
+            25.395448
+          ],
+          [
+            36.460488,
+            25.395251
+          ],
+          [
+            36.460518,
+            25.394984
+          ],
+          [
+            36.46054,
+            25.394797
+          ],
+          [
+            36.460539,
+            25.394673
+          ],
+          [
+            36.460558,
+            25.394579
+          ],
+          [
+            36.460542,
+            25.394379
+          ],
+          [
+            36.460524,
+            25.394309
+          ],
+          [
+            36.460452,
+            25.394209
+          ],
+          [
+            36.460434,
+            25.393952
+          ],
+          [
+            36.460395,
+            25.393394
+          ],
+          [
+            36.460395,
+            25.393238
+          ],
+          [
+            36.460387,
+            25.393078
+          ],
+          [
+            36.460381,
+            25.39296
+          ],
+          [
+            36.460426,
+            25.392745
+          ],
+          [
+            36.460557,
+            25.392331
+          ],
+          [
+            36.460607,
+            25.391818
+          ],
+          [
+            36.460678,
+            25.391647
+          ],
+          [
+            36.46086,
+            25.391145
+          ],
+          [
+            36.46086,
+            25.390626
+          ],
+          [
+            36.460843,
+            25.390506
+          ],
+          [
+            36.460773,
+            25.390129
+          ],
+          [
+            36.460775,
+            25.389996
+          ],
+          [
+            36.460783,
+            25.389971
+          ],
+          [
+            36.460807,
+            25.389892
+          ],
+          [
+            36.460931,
+            25.389623
+          ],
+          [
+            36.461058,
+            25.38928
+          ],
+          [
+            36.461087,
+            25.389197
+          ],
+          [
+            36.461101,
+            25.38917
+          ],
+          [
+            36.461106,
+            25.388976
+          ],
+          [
+            36.461127,
+            25.388742
+          ],
+          [
+            36.461137,
+            25.388665
+          ],
+          [
+            36.461215,
+            25.388468
+          ],
+          [
+            36.461249,
+            25.388383
+          ],
+          [
+            36.461338,
+            25.388197
+          ],
+          [
+            36.461366,
+            25.388069
+          ],
+          [
+            36.461377,
+            25.388017
+          ],
+          [
+            36.461396,
+            25.387968
+          ],
+          [
+            36.46143,
+            25.387882
+          ],
+          [
+            36.461501,
+            25.387755
+          ],
+          [
+            36.461549,
+            25.387683
+          ],
+          [
+            36.461582,
+            25.387635
+          ],
+          [
+            36.461682,
+            25.387252
+          ],
+          [
+            36.461698,
+            25.387122
+          ],
+          [
+            36.461723,
+            25.387009
+          ],
+          [
+            36.461737,
+            25.386937
+          ],
+          [
+            36.461773,
+            25.38676
+          ],
+          [
+            36.461808,
+            25.386624
+          ],
+          [
+            36.461825,
+            25.38655
+          ],
+          [
+            36.461841,
+            25.386478
+          ],
+          [
+            36.46188,
+            25.386376
+          ],
+          [
+            36.461909,
+            25.38632
+          ],
+          [
+            36.461912,
+            25.386282
+          ],
+          [
+            36.461916,
+            25.386247
+          ],
+          [
+            36.461919,
+            25.386223
+          ],
+          [
+            36.461938,
+            25.386186
+          ],
+          [
+            36.461973,
+            25.386119
+          ],
+          [
+            36.461992,
+            25.386063
+          ],
+          [
+            36.462012,
+            25.386002
+          ],
+          [
+            36.462052,
+            25.38585
+          ],
+          [
+            36.462081,
+            25.385635
+          ],
+          [
+            36.462086,
+            25.385613
+          ],
+          [
+            36.462115,
+            25.385457
+          ],
+          [
+            36.46216,
+            25.38529
+          ],
+          [
+            36.462166,
+            25.385268
+          ],
+          [
+            36.462186,
+            25.385152
+          ],
+          [
+            36.462225,
+            25.385063
+          ],
+          [
+            36.462199,
+            25.384932
+          ],
+          [
+            36.462185,
+            25.384846
+          ],
+          [
+            36.462171,
+            25.384777
+          ],
+          [
+            36.462147,
+            25.384665
+          ],
+          [
+            36.462132,
+            25.384587
+          ],
+          [
+            36.462098,
+            25.38438
+          ],
+          [
+            36.462092,
+            25.384309
+          ],
+          [
+            36.462072,
+            25.384071
+          ],
+          [
+            36.462063,
+            25.383959
+          ],
+          [
+            36.462067,
+            25.383894
+          ],
+          [
+            36.462051,
+            25.383671
+          ],
+          [
+            36.462051,
+            25.383442
+          ],
+          [
+            36.462053,
+            25.383384
+          ],
+          [
+            36.462057,
+            25.38324
+          ],
+          [
+            36.462065,
+            25.383074
+          ],
+          [
+            36.462067,
+            25.383003
+          ],
+          [
+            36.462069,
+            25.38299
+          ],
+          [
+            36.46209,
+            25.382893
+          ],
+          [
+            36.4621,
+            25.382834
+          ],
+          [
+            36.462082,
+            25.382742
+          ],
+          [
+            36.462091,
+            25.382682
+          ],
+          [
+            36.462105,
+            25.382505
+          ],
+          [
+            36.462106,
+            25.382426
+          ],
+          [
+            36.462107,
+            25.382408
+          ],
+          [
+            36.46211,
+            25.38239
+          ],
+          [
+            36.462143,
+            25.382206
+          ],
+          [
+            36.462156,
+            25.382162
+          ],
+          [
+            36.462167,
+            25.382084
+          ],
+          [
+            36.462182,
+            25.381966
+          ],
+          [
+            36.462213,
+            25.381653
+          ],
+          [
+            36.462241,
+            25.381527
+          ],
+          [
+            36.462283,
+            25.381341
+          ],
+          [
+            36.462313,
+            25.381272
+          ],
+          [
+            36.462382,
+            25.381106
+          ],
+          [
+            36.462399,
+            25.380924
+          ],
+          [
+            36.462395,
+            25.380887
+          ],
+          [
+            36.462385,
+            25.380792
+          ],
+          [
+            36.462319,
+            25.380513
+          ],
+          [
+            36.462312,
+            25.380441
+          ],
+          [
+            36.462286,
+            25.380195
+          ],
+          [
+            36.462269,
+            25.380027
+          ],
+          [
+            36.462256,
+            25.379918
+          ],
+          [
+            36.462253,
+            25.379894
+          ],
+          [
+            36.462144,
+            25.379534
+          ],
+          [
+            36.462108,
+            25.37927
+          ],
+          [
+            36.462103,
+            25.379155
+          ],
+          [
+            36.462096,
+            25.378977
+          ],
+          [
+            36.462094,
+            25.378854
+          ],
+          [
+            36.46209,
+            25.37873
+          ],
+          [
+            36.462089,
+            25.378694
+          ],
+          [
+            36.462077,
+            25.378453
+          ],
+          [
+            36.462071,
+            25.378198
+          ],
+          [
+            36.46205,
+            25.378066
+          ],
+          [
+            36.462026,
+            25.377935
+          ],
+          [
+            36.462023,
+            25.377909
+          ],
+          [
+            36.462016,
+            25.377869
+          ],
+          [
+            36.462007,
+            25.377691
+          ],
+          [
+            36.462006,
+            25.377656
+          ],
+          [
+            36.462,
+            25.377421
+          ],
+          [
+            36.461999,
+            25.37739
+          ],
+          [
+            36.461983,
+            25.377271
+          ],
+          [
+            36.461972,
+            25.377188
+          ],
+          [
+            36.461963,
+            25.377055
+          ],
+          [
+            36.461945,
+            25.376861
+          ],
+          [
+            36.461899,
+            25.376614
+          ],
+          [
+            36.461892,
+            25.376581
+          ],
+          [
+            36.461876,
+            25.376487
+          ],
+          [
+            36.461851,
+            25.376407
+          ],
+          [
+            36.461813,
+            25.376332
+          ],
+          [
+            36.461709,
+            25.376137
+          ],
+          [
+            36.461641,
+            25.376035
+          ],
+          [
+            36.461612,
+            25.375858
+          ],
+          [
+            36.461602,
+            25.37561
+          ],
+          [
+            36.461584,
+            25.375415
+          ],
+          [
+            36.461582,
+            25.375223
+          ],
+          [
+            36.46158,
+            25.375163
+          ],
+          [
+            36.461564,
+            25.374679
+          ],
+          [
+            36.461553,
+            25.374557
+          ],
+          [
+            36.461546,
+            25.374502
+          ],
+          [
+            36.461519,
+            25.374412
+          ],
+          [
+            36.461488,
+            25.374355
+          ],
+          [
+            36.461441,
+            25.374288
+          ],
+          [
+            36.461401,
+            25.374238
+          ],
+          [
+            36.461374,
+            25.374185
+          ],
+          [
+            36.46131,
+            25.374126
+          ],
+          [
+            36.46125,
+            25.374103
+          ],
+          [
+            36.461167,
+            25.374081
+          ],
+          [
+            36.461033,
+            25.37402
+          ],
+          [
+            36.46098,
+            25.374018
+          ],
+          [
+            36.460951,
+            25.374012
+          ],
+          [
+            36.460895,
+            25.373989
+          ],
+          [
+            36.46087,
+            25.373945
+          ],
+          [
+            36.460816,
+            25.373835
+          ],
+          [
+            36.460717,
+            25.373601
+          ],
+          [
+            36.460665,
+            25.373474
+          ],
+          [
+            36.460632,
+            25.373356
+          ],
+          [
+            36.460581,
+            25.373322
+          ],
+          [
+            36.460525,
+            25.373281
+          ],
+          [
+            36.460479,
+            25.373247
+          ],
+          [
+            36.460435,
+            25.373255
+          ],
+          [
+            36.460415,
+            25.373235
+          ],
+          [
+            36.460368,
+            25.373187
+          ],
+          [
+            36.460344,
+            25.373092
+          ],
+          [
+            36.460278,
+            25.373104
+          ],
+          [
+            36.46024,
+            25.373054
+          ],
+          [
+            36.460156,
+            25.373005
+          ],
+          [
+            36.46011,
+            25.372988
+          ],
+          [
+            36.460078,
+            25.372951
+          ]
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.432345,
+          36.4183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rando Skaros Rock (Imerovigli)",
+        "category": "Randonnée",
+        "address": "Imerovigli, Santorin",
+        "gps": {
+          "lat": 36.432589,
+          "lon": 25.421518
+        },
+        "source": "https://www.openstreetmap.org/relation/15877609",
+        "source_note": "Extrémité côté Imerovigli du sentier OpenStreetMap « Santorini Trail SK – Imerovigli – Skaros ».",
+        "pictogram": "marker",
+        "label": "Départ Skaros",
+        "info": {
+          "tags": [
+            "Court & panoramique",
+            "Bon rapport effort/vue",
+            "Passages exposés"
+          ],
+          "tip": "Courte boucle depuis Imerovigli jusqu'au rocher/château de Skaros. Excellent rapport effort/vue. Matin ou fin de journée ; certaines portions exposées et glissantes."
+        },
+        "route": [
+          [
+            36.432589,
+            25.421518
+          ],
+          [
+            36.432674,
+            25.421377
+          ],
+          [
+            36.432797,
+            25.421147
+          ],
+          [
+            36.432693,
+            25.421182
+          ],
+          [
+            36.432641,
+            25.421171
+          ],
+          [
+            36.432719,
+            25.421003
+          ],
+          [
+            36.432809,
+            25.420835
+          ],
+          [
+            36.432909,
+            25.420728
+          ],
+          [
+            36.433025,
+            25.420651
+          ],
+          [
+            36.433021,
+            25.42059
+          ],
+          [
+            36.433015,
+            25.420563
+          ],
+          [
+            36.432969,
+            25.420528
+          ],
+          [
+            36.432957,
+            25.420505
+          ],
+          [
+            36.432912,
+            25.420485
+          ],
+          [
+            36.432812,
+            25.420517
+          ],
+          [
+            36.432786,
+            25.420499
+          ],
+          [
+            36.432862,
+            25.420436
+          ],
+          [
+            36.432875,
+            25.420415
+          ],
+          [
+            36.432844,
+            25.420379
+          ],
+          [
+            36.432821,
+            25.420377
+          ],
+          [
+            36.432789,
+            25.420403
+          ],
+          [
+            36.432716,
+            25.420495
+          ],
+          [
+            36.43263,
+            25.420589
+          ],
+          [
+            36.432578,
+            25.420546
+          ],
+          [
+            36.432661,
+            25.420305
+          ],
+          [
+            36.432808,
+            25.420116
+          ],
+          [
+            36.432771,
+            25.420065
+          ],
+          [
+            36.432728,
+            25.420019
+          ],
+          [
+            36.432659,
+            25.419968
+          ],
+          [
+            36.432668,
+            25.419878
+          ],
+          [
+            36.432668,
+            25.419793
+          ],
+          [
+            36.432596,
+            25.419557
+          ],
+          [
+            36.432584,
+            25.419262
+          ],
+          [
+            36.432627,
+            25.419156
+          ],
+          [
+            36.432622,
+            25.419062
+          ],
+          [
+            36.432562,
+            25.418957
+          ],
+          [
+            36.432536,
+            25.418901
+          ],
+          [
+            36.432552,
+            25.41879
+          ],
+          [
+            36.432493,
+            25.418741
+          ],
+          [
+            36.43259,
+            25.41858
+          ],
+          [
+            36.432589,
+            25.41853
+          ],
+          [
+            36.432579,
+            25.418457
+          ],
+          [
+            36.432572,
+            25.418309
+          ],
+          [
+            36.432599,
+            25.418192
+          ],
+          [
+            36.432585,
+            25.418074
+          ],
+          [
+            36.432549,
+            25.417991
+          ],
+          [
+            36.432494,
+            25.417926
+          ],
+          [
+            36.432426,
+            25.417878
+          ],
+          [
+            36.432332,
+            25.417791
+          ],
+          [
+            36.432257,
+            25.417786
+          ],
+          [
+            36.432212,
+            25.417794
+          ],
+          [
+            36.432213,
+            25.417686
+          ],
+          [
+            36.432224,
+            25.417644
+          ],
+          [
+            36.432179,
+            25.417634
+          ],
+          [
+            36.432204,
+            25.417577
+          ],
+          [
+            36.432222,
+            25.417503
+          ],
+          [
+            36.43222,
+            25.417407
+          ],
+          [
+            36.432169,
+            25.417374
+          ],
+          [
+            36.432073,
+            25.41737
+          ],
+          [
+            36.432062,
+            25.417355
+          ],
+          [
+            36.432051,
+            25.417315
+          ],
+          [
+            36.432151,
+            25.417283
+          ],
+          [
+            36.432117,
+            25.417254
+          ],
+          [
+            36.432083,
+            25.417247
+          ],
+          [
+            36.431981,
+            25.417237
+          ],
+          [
+            36.431946,
+            25.417282
+          ],
+          [
+            36.431903,
+            25.417378
+          ],
+          [
+            36.431872,
+            25.417361
+          ],
+          [
+            36.431865,
+            25.417267
+          ],
+          [
+            36.431838,
+            25.417317
+          ],
+          [
+            36.431822,
+            25.417392
+          ],
+          [
+            36.431787,
+            25.417493
+          ],
+          [
+            36.431746,
+            25.417538
+          ],
+          [
+            36.431733,
+            25.417364
+          ],
+          [
+            36.431709,
+            25.417225
+          ],
+          [
+            36.431743,
+            25.417128
+          ],
+          [
+            36.431819,
+            25.417063
+          ],
+          [
+            36.431851,
+            25.416895
+          ],
+          [
+            36.4319,
+            25.416818
+          ],
+          [
+            36.432023,
+            25.416743
+          ],
+          [
+            36.432057,
+            25.416723
+          ],
+          [
+            36.432023,
+            25.416743
+          ],
+          [
+            36.4319,
+            25.416818
+          ],
+          [
+            36.431851,
+            25.416895
+          ],
+          [
+            36.431819,
+            25.417063
+          ],
+          [
+            36.431743,
+            25.417128
+          ],
+          [
+            36.431709,
+            25.417225
+          ],
+          [
+            36.431733,
+            25.417364
+          ],
+          [
+            36.431746,
+            25.417538
+          ],
+          [
+            36.431787,
+            25.417493
+          ],
+          [
+            36.431822,
+            25.417392
+          ],
+          [
+            36.431838,
+            25.417317
+          ],
+          [
+            36.431865,
+            25.417267
+          ],
+          [
+            36.431872,
+            25.417361
+          ],
+          [
+            36.431903,
+            25.417378
+          ],
+          [
+            36.431946,
+            25.417282
+          ],
+          [
+            36.431981,
+            25.417237
+          ],
+          [
+            36.432083,
+            25.417247
+          ],
+          [
+            36.432117,
+            25.417254
+          ],
+          [
+            36.432151,
+            25.417283
+          ],
+          [
+            36.432051,
+            25.417315
+          ],
+          [
+            36.432062,
+            25.417355
+          ],
+          [
+            36.432073,
+            25.41737
+          ],
+          [
+            36.432169,
+            25.417374
+          ],
+          [
+            36.43222,
+            25.417407
+          ],
+          [
+            36.432222,
+            25.417503
+          ],
+          [
+            36.432204,
+            25.417577
+          ],
+          [
+            36.432179,
+            25.417634
+          ],
+          [
+            36.432224,
+            25.417644
+          ],
+          [
+            36.432213,
+            25.417686
+          ],
+          [
+            36.432212,
+            25.417794
+          ],
+          [
+            36.432173,
+            25.417911
+          ],
+          [
+            36.43215,
+            25.418034
+          ],
+          [
+            36.432203,
+            25.418199
+          ],
+          [
+            36.43228,
+            25.418367
+          ],
+          [
+            36.432358,
+            25.418567
+          ],
+          [
+            36.432451,
+            25.418703
+          ],
+          [
+            36.432493,
+            25.418741
+          ],
+          [
+            36.432552,
+            25.41879
+          ],
+          [
+            36.432536,
+            25.418901
+          ],
+          [
+            36.432562,
+            25.418957
+          ],
+          [
+            36.432622,
+            25.419062
+          ],
+          [
+            36.432627,
+            25.419156
+          ],
+          [
+            36.432584,
+            25.419262
+          ],
+          [
+            36.432596,
+            25.419557
+          ],
+          [
+            36.432668,
+            25.419793
+          ],
+          [
+            36.432668,
+            25.419878
+          ],
+          [
+            36.432659,
+            25.419968
+          ],
+          [
+            36.432728,
+            25.420019
+          ],
+          [
+            36.432771,
+            25.420065
+          ],
+          [
+            36.432808,
+            25.420116
+          ],
+          [
+            36.432661,
+            25.420305
+          ],
+          [
+            36.432578,
+            25.420546
+          ],
+          [
+            36.432589,
+            25.421518
+          ],
+          [
+            36.432674,
+            25.421377
+          ],
+          [
+            36.432797,
+            25.421147
+          ],
+          [
+            36.432693,
+            25.421182
+          ],
+          [
+            36.432641,
+            25.421171
+          ],
+          [
+            36.432719,
+            25.421003
+          ],
+          [
+            36.432809,
+            25.420835
+          ],
+          [
+            36.432909,
+            25.420728
+          ],
+          [
+            36.433025,
+            25.420651
+          ],
+          [
+            36.433021,
+            25.42059
+          ],
+          [
+            36.433015,
+            25.420563
+          ],
+          [
+            36.432969,
+            25.420528
+          ],
+          [
+            36.432957,
+            25.420505
+          ],
+          [
+            36.432912,
+            25.420485
+          ],
+          [
+            36.432812,
+            25.420517
+          ],
+          [
+            36.432786,
+            25.420499
+          ],
+          [
+            36.432862,
+            25.420436
+          ],
+          [
+            36.432875,
+            25.420415
+          ],
+          [
+            36.432844,
+            25.420379
+          ],
+          [
+            36.432821,
+            25.420377
+          ],
+          [
+            36.432789,
+            25.420403
+          ],
+          [
+            36.432716,
+            25.420495
+          ],
+          [
+            36.43263,
+            25.420589
+          ],
+          [
+            36.432578,
+            25.420546
+          ]
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.421518,
+          36.432589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rando Pyrgos → Ancient Thera",
+        "category": "Randonnée",
+        "address": "Départ à Pyrgos, Santorin",
+        "gps": {
+          "lat": 36.380944,
+          "lon": 25.450426
+        },
+        "source": "https://www.openstreetmap.org/relation/15876635",
+        "source_note": "Extrémité côté Pyrgos du sentier OpenStreetMap « Santorini Trail 01 – Pyrgos – Prophet Elias – Ancient Thera ».",
+        "pictogram": "marker",
+        "label": "Départ Pyrgos→Thera",
+        "info": {
+          "tags": [
+            "Sportive",
+            "Village + sommet + site antique",
+            "Descente vers Perissa/Kamari"
+          ],
+          "tip": "Traversée sportive : Pyrgos, monastère Profitis Ilias (point culminant), site antique d'Ancient Thera, puis descente vers Perissa ou Kamari. Départ tôt, dénivelé important."
+        },
+        "route": [
+          [
+            36.380944,
+            25.450426
+          ],
+          [
+            36.381041,
+            25.450363
+          ],
+          [
+            36.381118,
+            25.450267
+          ],
+          [
+            36.381201,
+            25.450128
+          ],
+          [
+            36.381415,
+            25.449857
+          ],
+          [
+            36.38153,
+            25.449742
+          ],
+          [
+            36.381578,
+            25.449705
+          ],
+          [
+            36.381814,
+            25.449609
+          ],
+          [
+            36.382046,
+            25.449529
+          ],
+          [
+            36.382161,
+            25.449467
+          ],
+          [
+            36.382193,
+            25.449414
+          ],
+          [
+            36.380944,
+            25.450426
+          ],
+          [
+            36.38049,
+            25.450362
+          ],
+          [
+            36.380332,
+            25.450353
+          ],
+          [
+            36.380013,
+            25.45034
+          ],
+          [
+            36.379946,
+            25.450331
+          ],
+          [
+            36.379784,
+            25.450304
+          ],
+          [
+            36.379678,
+            25.450267
+          ],
+          [
+            36.379585,
+            25.45025
+          ],
+          [
+            36.379474,
+            25.450254
+          ],
+          [
+            36.379316,
+            25.450254
+          ],
+          [
+            36.378984,
+            25.450275
+          ],
+          [
+            36.378824,
+            25.450263
+          ],
+          [
+            36.378702,
+            25.450222
+          ],
+          [
+            36.37846,
+            25.450302
+          ],
+          [
+            36.37804,
+            25.450463
+          ],
+          [
+            36.377989,
+            25.450482
+          ],
+          [
+            36.377787,
+            25.450555
+          ],
+          [
+            36.377569,
+            25.450642
+          ],
+          [
+            36.377472,
+            25.450687
+          ],
+          [
+            36.377347,
+            25.450754
+          ],
+          [
+            36.377185,
+            25.450851
+          ],
+          [
+            36.377161,
+            25.450872
+          ],
+          [
+            36.376999,
+            25.451008
+          ],
+          [
+            36.376764,
+            25.451227
+          ],
+          [
+            36.376518,
+            25.45142
+          ],
+          [
+            36.37646,
+            25.451466
+          ],
+          [
+            36.376235,
+            25.451644
+          ],
+          [
+            36.376105,
+            25.451954
+          ],
+          [
+            36.375979,
+            25.452145
+          ],
+          [
+            36.375805,
+            25.452459
+          ],
+          [
+            36.375675,
+            25.452678
+          ],
+          [
+            36.375546,
+            25.452897
+          ],
+          [
+            36.375342,
+            25.453253
+          ],
+          [
+            36.375045,
+            25.453333
+          ],
+          [
+            36.374895,
+            25.453385
+          ],
+          [
+            36.37483,
+            25.453369
+          ],
+          [
+            36.374734,
+            25.453238
+          ],
+          [
+            36.374677,
+            25.453196
+          ],
+          [
+            36.374639,
+            25.453183
+          ],
+          [
+            36.374223,
+            25.453181
+          ],
+          [
+            36.374061,
+            25.453232
+          ],
+          [
+            36.37391,
+            25.45333
+          ],
+          [
+            36.37347,
+            25.453447
+          ],
+          [
+            36.372941,
+            25.453587
+          ],
+          [
+            36.372509,
+            25.453866
+          ],
+          [
+            36.372377,
+            25.453924
+          ],
+          [
+            36.371711,
+            25.454313
+          ],
+          [
+            36.371054,
+            25.4547
+          ],
+          [
+            36.370845,
+            25.454939
+          ],
+          [
+            36.370657,
+            25.455175
+          ],
+          [
+            36.370528,
+            25.455389
+          ],
+          [
+            36.370406,
+            25.455609
+          ],
+          [
+            36.370265,
+            25.456
+          ],
+          [
+            36.370174,
+            25.456329
+          ],
+          [
+            36.369983,
+            25.456978
+          ],
+          [
+            36.36999,
+            25.457201
+          ],
+          [
+            36.36998,
+            25.457763
+          ],
+          [
+            36.369958,
+            25.457894
+          ],
+          [
+            36.369887,
+            25.458087
+          ],
+          [
+            36.369846,
+            25.458207
+          ],
+          [
+            36.3698,
+            25.458392
+          ],
+          [
+            36.369684,
+            25.458577
+          ],
+          [
+            36.369596,
+            25.458727
+          ],
+          [
+            36.369556,
+            25.4588
+          ],
+          [
+            36.369504,
+            25.458921
+          ],
+          [
+            36.369504,
+            25.458974
+          ],
+          [
+            36.369497,
+            25.45903
+          ],
+          [
+            36.369462,
+            25.459076
+          ],
+          [
+            36.36948,
+            25.459152
+          ],
+          [
+            36.369519,
+            25.459198
+          ],
+          [
+            36.369559,
+            25.459253
+          ],
+          [
+            36.369451,
+            25.459467
+          ],
+          [
+            36.369399,
+            25.459597
+          ],
+          [
+            36.369334,
+            25.459855
+          ],
+          [
+            36.369246,
+            25.460214
+          ],
+          [
+            36.369105,
+            25.4606
+          ],
+          [
+            36.368959,
+            25.460958
+          ],
+          [
+            36.368949,
+            25.460998
+          ],
+          [
+            36.368947,
+            25.46104
+          ],
+          [
+            36.368951,
+            25.461082
+          ],
+          [
+            36.368954,
+            25.461128
+          ],
+          [
+            36.368972,
+            25.461164
+          ],
+          [
+            36.368994,
+            25.461195
+          ],
+          [
+            36.369024,
+            25.461221
+          ],
+          [
+            36.369057,
+            25.461238
+          ],
+          [
+            36.369093,
+            25.461246
+          ],
+          [
+            36.369129,
+            25.461244
+          ],
+          [
+            36.369164,
+            25.461232
+          ],
+          [
+            36.369197,
+            25.461211
+          ],
+          [
+            36.369224,
+            25.461182
+          ],
+          [
+            36.369357,
+            25.461036
+          ],
+          [
+            36.369402,
+            25.461094
+          ],
+          [
+            36.36937,
+            25.461174
+          ],
+          [
+            36.369297,
+            25.461265
+          ],
+          [
+            36.369175,
+            25.461351
+          ],
+          [
+            36.369124,
+            25.461435
+          ],
+          [
+            36.36911,
+            25.461537
+          ],
+          [
+            36.369072,
+            25.461663
+          ],
+          [
+            36.369075,
+            25.461716
+          ],
+          [
+            36.369069,
+            25.461858
+          ],
+          [
+            36.36904,
+            25.462074
+          ],
+          [
+            36.369029,
+            25.462169
+          ],
+          [
+            36.368992,
+            25.462372
+          ],
+          [
+            36.368788,
+            25.463133
+          ],
+          [
+            36.368765,
+            25.463248
+          ],
+          [
+            36.368834,
+            25.463447
+          ],
+          [
+            36.36892,
+            25.463859
+          ],
+          [
+            36.369081,
+            25.464253
+          ],
+          [
+            36.369139,
+            25.464437
+          ],
+          [
+            36.369156,
+            25.464742
+          ],
+          [
+            36.369282,
+            25.465077
+          ],
+          [
+            36.369335,
+            25.465096
+          ],
+          [
+            36.369366,
+            25.465289
+          ],
+          [
+            36.369429,
+            25.465432
+          ],
+          [
+            36.369412,
+            25.465564
+          ],
+          [
+            36.369439,
+            25.465627
+          ],
+          [
+            36.369476,
+            25.465656
+          ],
+          [
+            36.369534,
+            25.46571
+          ],
+          [
+            36.369561,
+            25.465761
+          ],
+          [
+            36.369581,
+            25.465801
+          ],
+          [
+            36.369583,
+            25.465858
+          ],
+          [
+            36.369567,
+            25.465903
+          ],
+          [
+            36.369611,
+            25.465924
+          ],
+          [
+            36.369645,
+            25.466059
+          ],
+          [
+            36.369647,
+            25.466131
+          ],
+          [
+            36.369679,
+            25.466237
+          ],
+          [
+            36.369716,
+            25.466344
+          ],
+          [
+            36.369731,
+            25.466455
+          ],
+          [
+            36.369785,
+            25.466515
+          ],
+          [
+            36.369867,
+            25.46655
+          ],
+          [
+            36.369951,
+            25.46671
+          ],
+          [
+            36.370052,
+            25.466841
+          ],
+          [
+            36.370078,
+            25.466931
+          ],
+          [
+            36.370052,
+            25.467079
+          ],
+          [
+            36.370064,
+            25.467158
+          ],
+          [
+            36.370094,
+            25.467201
+          ],
+          [
+            36.370101,
+            25.467287
+          ],
+          [
+            36.370089,
+            25.467442
+          ],
+          [
+            36.370107,
+            25.467487
+          ],
+          [
+            36.370132,
+            25.467552
+          ],
+          [
+            36.370136,
+            25.467639
+          ],
+          [
+            36.370194,
+            25.467874
+          ],
+          [
+            36.370168,
+            25.467986
+          ],
+          [
+            36.370157,
+            25.468102
+          ],
+          [
+            36.37017,
+            25.468188
+          ],
+          [
+            36.370173,
+            25.468485
+          ],
+          [
+            36.370207,
+            25.468477
+          ],
+          [
+            36.370337,
+            25.4683
+          ],
+          [
+            36.370353,
+            25.468304
+          ],
+          [
+            36.370358,
+            25.468385
+          ],
+          [
+            36.370367,
+            25.468556
+          ],
+          [
+            36.370364,
+            25.468791
+          ],
+          [
+            36.370399,
+            25.468823
+          ],
+          [
+            36.370494,
+            25.468743
+          ],
+          [
+            36.370541,
+            25.468827
+          ],
+          [
+            36.370553,
+            25.469175
+          ],
+          [
+            36.370538,
+            25.469469
+          ],
+          [
+            36.370569,
+            25.469758
+          ],
+          [
+            36.370593,
+            25.470212
+          ],
+          [
+            36.370581,
+            25.470425
+          ],
+          [
+            36.370624,
+            25.470662
+          ],
+          [
+            36.370585,
+            25.470785
+          ],
+          [
+            36.370517,
+            25.470743
+          ],
+          [
+            36.370428,
+            25.470658
+          ],
+          [
+            36.370167,
+            25.470271
+          ],
+          [
+            36.370131,
+            25.470284
+          ],
+          [
+            36.370119,
+            25.470405
+          ],
+          [
+            36.370094,
+            25.470409
+          ],
+          [
+            36.369957,
+            25.470289
+          ],
+          [
+            36.369843,
+            25.470146
+          ],
+          [
+            36.369812,
+            25.47018
+          ],
+          [
+            36.369787,
+            25.4705
+          ],
+          [
+            36.369795,
+            25.470598
+          ],
+          [
+            36.369772,
+            25.470737
+          ],
+          [
+            36.369774,
+            25.470824
+          ],
+          [
+            36.369719,
+            25.470758
+          ],
+          [
+            36.369684,
+            25.470868
+          ],
+          [
+            36.369609,
+            25.470779
+          ],
+          [
+            36.369587,
+            25.470837
+          ],
+          [
+            36.369568,
+            25.470993
+          ],
+          [
+            36.369585,
+            25.47139
+          ],
+          [
+            36.36967,
+            25.471448
+          ],
+          [
+            36.36975,
+            25.471449
+          ],
+          [
+            36.369829,
+            25.4715
+          ],
+          [
+            36.369848,
+            25.47156
+          ],
+          [
+            36.369907,
+            25.471628
+          ],
+          [
+            36.370007,
+            25.471695
+          ],
+          [
+            36.370033,
+            25.471771
+          ],
+          [
+            36.370073,
+            25.471822
+          ],
+          [
+            36.370112,
+            25.471905
+          ],
+          [
+            36.370076,
+            25.471934
+          ],
+          [
+            36.370109,
+            25.471979
+          ],
+          [
+            36.370121,
+            25.472044
+          ],
+          [
+            36.370129,
+            25.472052
+          ],
+          [
+            36.370179,
+            25.472122
+          ],
+          [
+            36.370214,
+            25.472185
+          ],
+          [
+            36.370197,
+            25.472277
+          ],
+          [
+            36.370213,
+            25.472317
+          ],
+          [
+            36.370206,
+            25.47237
+          ],
+          [
+            36.370193,
+            25.472408
+          ],
+          [
+            36.370059,
+            25.472388
+          ],
+          [
+            36.369866,
+            25.472324
+          ],
+          [
+            36.36972,
+            25.472268
+          ],
+          [
+            36.36965,
+            25.472264
+          ],
+          [
+            36.369704,
+            25.472351
+          ],
+          [
+            36.369777,
+            25.472433
+          ],
+          [
+            36.369861,
+            25.472542
+          ],
+          [
+            36.369952,
+            25.472652
+          ],
+          [
+            36.369945,
+            25.472707
+          ],
+          [
+            36.369441,
+            25.472481
+          ],
+          [
+            36.369391,
+            25.472458
+          ],
+          [
+            36.369367,
+            25.472479
+          ],
+          [
+            36.369293,
+            25.472528
+          ],
+          [
+            36.369145,
+            25.472599
+          ],
+          [
+            36.36898,
+            25.472552
+          ],
+          [
+            36.36892,
+            25.472561
+          ],
+          [
+            36.368893,
+            25.4726
+          ],
+          [
+            36.368912,
+            25.472625
+          ],
+          [
+            36.368847,
+            25.47271
+          ],
+          [
+            36.368869,
+            25.472749
+          ],
+          [
+            36.368863,
+            25.472791
+          ],
+          [
+            36.368874,
+            25.472815
+          ],
+          [
+            36.368959,
+            25.472846
+          ],
+          [
+            36.369086,
+            25.472831
+          ],
+          [
+            36.369241,
+            25.472903
+          ],
+          [
+            36.369272,
+            25.472936
+          ],
+          [
+            36.369265,
+            25.47298
+          ],
+          [
+            36.369179,
+            25.472952
+          ],
+          [
+            36.369109,
+            25.472977
+          ],
+          [
+            36.369063,
+            25.473015
+          ],
+          [
+            36.369007,
+            25.473092
+          ],
+          [
+            36.36895,
+            25.473116
+          ],
+          [
+            36.368776,
+            25.473127
+          ],
+          [
+            36.368639,
+            25.473209
+          ],
+          [
+            36.368536,
+            25.473266
+          ],
+          [
+            36.368305,
+            25.473447
+          ],
+          [
+            36.368174,
+            25.473488
+          ],
+          [
+            36.36806,
+            25.473574
+          ],
+          [
+            36.367948,
+            25.473651
+          ],
+          [
+            36.367834,
+            25.473781
+          ],
+          [
+            36.367701,
+            25.473913
+          ],
+          [
+            36.367629,
+            25.473979
+          ],
+          [
+            36.367604,
+            25.474028
+          ],
+          [
+            36.367563,
+            25.474089
+          ],
+          [
+            36.367547,
+            25.474123
+          ],
+          [
+            36.367518,
+            25.474119
+          ],
+          [
+            36.367502,
+            25.474126
+          ],
+          [
+            36.367485,
+            25.474139
+          ],
+          [
+            36.367473,
+            25.474158
+          ],
+          [
+            36.367466,
+            25.474181
+          ],
+          [
+            36.367466,
+            25.474205
+          ],
+          [
+            36.367385,
+            25.474243
+          ],
+          [
+            36.367309,
+            25.474328
+          ],
+          [
+            36.367075,
+            25.474564
+          ],
+          [
+            36.366978,
+            25.474699
+          ],
+          [
+            36.366904,
+            25.474856
+          ],
+          [
+            36.366861,
+            25.474926
+          ]
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.450426,
+          36.380944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mesa Pigadia Beach",
+        "category": "Plage",
+        "address": "Akrotiri, Santorin",
+        "gps": {
+          "lat": 36.3545312,
+          "lon": 25.375961
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Nœud OpenStreetMap à Mesa Pigadia (Μέσα Πηγάδια), Akrotiri.",
+        "pictogram": "beach",
+        "label": "Mesa Pigadia",
+        "info": {
+          "tags": [
+            "Sous les falaises",
+            "Taverne & beach bar",
+            "Grotte marine",
+            "Abritée du vent du nord"
+          ],
+          "tip": "Longue plage sous des falaises, ambiance « bout du monde », abritée quand le vent du nord souffle. Accès par piste praticable + petit parking. Taverne sur place. Grotte marine traversable (~30 m)."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.375961,
+          36.3545312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kambia Beach",
+        "category": "Plage",
+        "address": "Akrotiri, Santorin",
+        "gps": {
+          "lat": 36.348148,
+          "lon": 25.38744
+        },
+        "source": "https://www.santorini-view.com/santorini-beaches/kambia-beach/",
+        "source_note": "Coordonnées issues d'une source touristique (absente d'OpenStreetMap) — à confirmer.",
+        "pictogram": "beach",
+        "label": "Kambia",
+        "info": {
+          "tags": [
+            "Entre Red & White Beach",
+            "Accès par piste",
+            "Peu aménagée"
+          ],
+          "tip": "Crique volcanique entre Red Beach et White Beach. Accès par piste en terre (~15 min) — prudence avec une voiture de location classique."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.38744,
+          36.348148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eros Beach",
+        "category": "Plage",
+        "address": "Près de Vlychada, Santorin",
+        "gps": {
+          "lat": 36.345269,
+          "lon": 25.4240056
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Nœud OpenStreetMap « Eros Theros » près de la marina de Vlychada.",
+        "pictogram": "beach",
+        "label": "Eros Beach",
+        "info": {
+          "tags": [
+            "Isolée",
+            "Près de Vlychada",
+            "Piste cahoteuse"
+          ],
+          "tip": "Plage isolée près de la marina de Vlychada, accès par piste cahoteuse (garde au sol utile, ou se garer plus haut et finir à pied). Peu de services."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4240056,
+          36.345269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbo Beach",
+        "category": "Plage",
+        "address": "Côte nord-est, Santorin",
+        "gps": {
+          "lat": 36.4712031,
+          "lon": 25.4222282
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Nœud OpenStreetMap « Κολούμπος Παραλία » (Koloumbos), côte nord-est.",
+        "pictogram": "beach",
+        "label": "Columbo Beach",
+        "info": {
+          "tags": [
+            "Sauvage",
+            "Formations rocheuses",
+            "Non abritée du vent",
+            "Naturistes"
+          ],
+          "tip": "Plage sauvage du nord-est, superbes formations rocheuses. 5 min à pied depuis le parking. Peu aménagée : eau, chaussures et protection solaire indispensables. À éviter par vent du nord. Présence de naturistes."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4222282,
+          36.4712031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parkings d'Oia",
+        "category": "Service pratique",
+        "address": "Entrée d'Oia, Santorin",
+        "gps": {
+          "lat": 36.4633,
+          "lon": 25.3764
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Parkings de surface à l'entrée d'Oia (plusieurs poches contiguës) — point représentatif.",
+        "pictogram": "bus",
+        "label": "Parking Oia",
+        "info": {
+          "tags": [
+            "~5 €/h, 15 €/jour",
+            "Entrée d'Oia"
+          ],
+          "tip": "Nouveaux parkings à l'entrée d'Oia (~5 € la 1re heure, 15 €/jour). Fin du casse-tête du stationnement : plus besoin de se garer à Fira. Sur satellite, la zone ressemble encore à des champs."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3764,
+          36.4633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Navette Ammoudi (départ)",
+        "category": "Service pratique",
+        "address": "Centre d'Oia, Santorin",
+        "gps": {
+          "lat": 36.4612,
+          "lon": 25.376
+        },
+        "source": "https://www.openstreetmap.org/",
+        "source_note": "Prise en charge approximative (centre d'Oia) — navette privée des tavernes, à confirmer avec le restaurant.",
+        "pictogram": "bus",
+        "label": "Navette Ammoudi",
+        "info": {
+          "tags": [
+            "Gratuite",
+            "Sur réservation resto",
+            "Baie d'Ammoudi"
+          ],
+          "tip": "Navettes gratuites (vans) vers la baie d'Ammoudi pour les clients ayant réservé dans l'un des 5 restaurants. Vérifier le point exact avec le restaurant. Route fermée aux voitures depuis 2026."
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.376,
+          36.4612
         ]
       }
     }
